@@ -1,11 +1,8 @@
 // Imports
 import React from "react";
-import { Components } from "../../components";
 import { PageNotFoundWrapper } from "./styles";
 import { useParams } from "react-router";
-
-// Destructure imports
-const { Navbar } = Components;
+import { Navbar } from "../../components";
 
 const PageNotFound = () => {
   return;

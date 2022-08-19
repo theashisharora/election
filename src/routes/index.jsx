@@ -2,12 +2,9 @@
 import routes from "./routes";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Suspense } from "react";
-import { Components } from "../components";
 import PageNotFound from "../pages/PageNotFound/PageNotFound";
 import { ScrollToTop } from "../hooks";
-
-// Destructure imports
-const { Loader } = Components;
+import { Loader } from "../components";
 
 // Configure app routes
 export const AppRoutes = () => {

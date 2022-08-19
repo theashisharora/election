@@ -1,7 +1,2 @@
-import Navbar from "./Navbar/Navbar";
-import Loader from "./Loader/Loader";
-
-export const Components = {
-  Navbar,
-  Loader,
-};
+export { default as Loader } from "./Loader/Loader";
+export { default as Navbar } from "./Navbar/Navbar";
