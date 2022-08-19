@@ -106,6 +106,15 @@ const Navbar = () => {
             </NavL>
           </NavListItem>
         </ul>
+
+        <section className="dropdown__buttons">
+          <Link className="btn btn__filled" to="/donate">
+            Donate
+          </Link>
+          <a className="btn btn__outline" href="https://kdd.com">
+            Volunteer
+          </a>
+        </section>
       </NavDropdown>
     </>
   );

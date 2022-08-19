@@ -224,47 +224,82 @@ export const NavDropdown = styled.section.attrs({
         transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg)
           rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
         transform-style: preserve-3d;
+
+        overflow: hidden;
+        position: relative;
+        display: inline-block;
+
+        span {
+          font-weight: 400;
+          font-size: 1.6rem;
+          line-height: 2.4rem;
+          display: block;
+          line-height: 2.8rem;
+          color: #503a16;
+        }
+        color: ${({ darkMode }) =>
+          !darkMode ? "var(--black)" : "var(--white)"};
+        .line {
+          position: relative;
+          left: -100%;
+          width: 100%;
+          border-top: 2px solid #171d17;
+          margin-top: -4px;
+        }
+
+        &:hover,
+        &.active {
+          /* background-color: red; */
+          color: #171d17;
+          .line {
+            transform: translate3d(100%, 0px, 0px) scale3d(1, 1, 1)
+              rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+            transform-style: preserve-3d;
+          }
+
+          span {
+            font-weight: 700;
+          }
+        }
       }
     }
   }
 
   ul {
-    margin-top: 64px;
+    margin-top: 96px;
+    margin-bottom: 40px;
   }
 
   li {
     margin-bottom: 24px;
   }
-`;
 
-export const MobileLetsTalkButton = styled.button`
-  @media screen and (min-width: 960px) {
-    display: none;
-  }
-  /* width: 42px;
-  height: 42px; */
-  background: var(--green);
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 12px;
+  .dropdown__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 16px;
+    justify-content: center;
 
-  font-weight: 400;
-  font-size: 1.4rem;
-  line-height: 150%;
-  color: white;
-  background: var(--green);
-  padding: 12px;
-  border-radius: 50px;
+    & > * {
+      width: 100%;
+      max-width: 400px;
 
-  position: absolute;
-  right: -250px;
+      &:first-child {
+        margin-bottom: 16px;
+      }
+    }
 
-  /* &:hover {
-    transform: scale(1.4);
-  } */
-  &.open {
-    right: 56px;
+    @media screen and (min-width: 768px) {
+      padding: 0 32px;
+
+      & > * {
+        width: 240px;
+
+        &:first-child {
+          margin-bottom: 0px;
+          margin-right: 16px;
+        }
+      }
+    }
   }
 `;
