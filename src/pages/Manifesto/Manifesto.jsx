@@ -1,7 +1,13 @@
 import React from "react";
+import { Navbar } from "../../components";
 
 const Manifesto = () => {
-  return <div>Manifesto</div>;
+  return (
+    <div>
+      {" "}
+      <Navbar />
+    </div>
+  );
 };
 
 export default Manifesto;

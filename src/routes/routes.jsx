@@ -17,7 +17,7 @@ const routes = [
     element: <Donate />,
   },
   {
-    path: "/banner",
+    path: "/banners",
     element: <Banner />,
   },
   {
