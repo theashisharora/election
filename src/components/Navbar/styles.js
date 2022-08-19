@@ -12,13 +12,16 @@ export const NavbarWrapper = styled.header`
   .subb {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     padding: 16px 0;
     position: relative;
     width: 100%;
 
     @media screen and (min-width: 768px) {
       padding: 20px 0;
+    }
+    @media screen and (min-width: 960px) {
+      justify-content: space-between;
     }
     /* @media screen and (min-width: 1024px) {
       padding: 24px 0;
@@ -29,7 +32,7 @@ export const NavbarWrapper = styled.header`
 
     .home {
       /* position: relative; */
-      z-index: 2;
+      z-index: 10;
     }
   }
 
@@ -49,8 +52,8 @@ export const NavbarWrapper = styled.header`
 
   .nav {
     &__logo {
-      height: 72px;
-      width: 72px;
+      height: 88px;
+      width: 88px;
       @media screen and (min-width: 960px) {
         height: 88px;
         width: 88px;
@@ -73,7 +76,7 @@ export const NavbarWrapper = styled.header`
       position: relative;
       /* width: 300px; */
       justify-content: flex-end;
-      padding: 12px 0;
+      padding: 0px 0;
 
       .donate-btn {
         background-color: red;
@@ -205,7 +208,7 @@ export const NavDropdown = styled.section.attrs({
   className: "container_sub",
 })`
   width: 100%;
-  background: var(--black);
+  background: #f8f1e6;
   z-index: 8;
   height: 100vh;
   position: fixed;

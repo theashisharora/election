@@ -100,6 +100,13 @@ const GlobalStyle = createGlobalStyle`
       color: #503A16;
     }
   }
+
+  .md-show {
+    display: none;
+    @media screen and (min-width: 960px) {
+      display: block;
+    }
+  }
 `;
 
 export default GlobalStyle;

@@ -51,7 +51,7 @@ const Navbar = () => {
 
               <NavListItem>
                 <NavL to="/profile">
-                  <span>Profile</span>
+                  <span>Meet Oladeji</span>
                   <div className="line"></div>
                 </NavL>
               </NavListItem>
@@ -59,10 +59,10 @@ const Navbar = () => {
           </nav>
 
           <section className="nav__buttons">
-            <Link className="btn btn__filled" to="/donate">
+            <Link className="btn btn__filled md-show" to="/donate">
               Donate
             </Link>
-            <a className="btn btn__outline" href="https://kdd.com">
+            <a className="btn btn__outline md-show" href="https://kdd.com">
               Volunteer
             </a>
             <MenuButton
@@ -101,7 +101,7 @@ const Navbar = () => {
           </NavListItem>
           <NavListItem>
             <NavL to="/profile" darkMode={true}>
-              <span>Profile</span>
+              <span>Meet Oladeji</span>
               <div className="line"></div>
             </NavL>
           </NavListItem>
