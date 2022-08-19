@@ -91,14 +91,20 @@ const GlobalStyle = createGlobalStyle`
     font-weight: 600;
     font-size: 1.6rem;
     line-height: 150%;
+    transition: 0.5s ease-in-out;
     &__filled {
       background: #D82E33;
       color: white;
+
+      &:hover {
+        background: #D83f53;
+      }
     }
     &__outline {
       border: 1px solid #503A16;
       color: #503A16;
     }
+
   }
 
   .md-show {
