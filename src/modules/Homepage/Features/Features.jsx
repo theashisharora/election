@@ -15,6 +15,14 @@ const Features = () => {
             </li>
           ))}
         </ul>
+
+        <section className="vote-ypp">
+          <div className="left">
+            <h6 className="vote-wisely">#VoteYPP</h6>
+            <h3 className="district">Lagos Central Senatorial District</h3>
+          </div>
+          <div className="right"></div>
+        </section>
       </section>
     </Wrapper>
   );
