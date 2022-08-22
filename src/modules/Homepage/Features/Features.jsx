@@ -16,9 +16,9 @@ const Features = () => {
           ))}
         </ul>
 
-        <section className="vote-ypp">
+        <section className="flex-section">
           <div className="left">
-            <h6 className="vote-wisely">#VoteYPP</h6>
+            <h6 className="vote-ypp">#VoteYPP</h6>
             <h3 className="district">Lagos Central Senatorial District</h3>
           </div>
           <div className="right"></div>
@@ -126,6 +126,40 @@ const Wrapper = styled.section`
           }
         }
       }
+    }
+  }
+
+  .flex-section {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin-top: 60px;
+    @media screen and (min-width: 640px) {
+      margin-top: 80px;
+    }
+    @media screen and (min-width: 800px) {
+      margin-top: 100px;
+    }
+    @media screen and (min-width: 960px) {
+      margin-top: 120px;
+    }
+    @media screen and (min-width: 1024px) {
+      margin-top: 140px;
+    }
+    @media screen and (min-width: 1200px) {
+      margin-top: 160px;
+    }
+
+    .left,
+    .right {
+      width: 100%;
+    }
+
+    .left {
+      max-width: 370px;
+      text-align: center;
     }
   }
 `;

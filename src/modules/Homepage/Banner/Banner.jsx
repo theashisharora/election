@@ -63,6 +63,7 @@ const Wrapper = styled.section`
     font-size: 1.6rem;
     line-height: 148%;
     color: #0b4734;
+    font-family: Poppins;
 
     @media screen and (min-width: 640px) {
       font-size: 2.4rem;
@@ -84,6 +85,7 @@ const Wrapper = styled.section`
     line-height: 110%;
     color: #0b4734;
     margin-top: 8px;
+    font-family: Poppins, Inter, sans-serif;
 
     @media screen and (min-width: 640px) {
       font-size: 6.2rem;
