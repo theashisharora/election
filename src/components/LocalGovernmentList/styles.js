@@ -68,7 +68,7 @@ export const LocalGovernmentListWrapper = styled.div`
 
       &--item {
         font-weight: 500;
-        font-size: 16px;
+        font-size: 1.2rem;
         line-height: 150%;
         color: white;
         background: #116a4e;
@@ -76,6 +76,14 @@ export const LocalGovernmentListWrapper = styled.div`
         padding: 10px 16px;
         margin-right: 16px;
         margin-bottom: 10px;
+        text-align: left;
+
+        @media screen and (min-width: 800px) {
+          margin-top: 1.4rem;
+        }
+        @media screen and (min-width: 1024px) {
+          margin-top: 1.6rem;
+        }
       }
     }
   }
