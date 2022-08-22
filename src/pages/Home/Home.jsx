@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar } from "../../components";
-import { Banner, Features } from "../../modules/Homepage";
+import { Banner, Features, TreeDoesntMake } from "../../modules/Homepage";
 
 const Home = () => {
   return (
@@ -8,6 +8,7 @@ const Home = () => {
       <Navbar />
       <Banner />
       <Features />
+      <TreeDoesntMake />
     </div>
   );
 };

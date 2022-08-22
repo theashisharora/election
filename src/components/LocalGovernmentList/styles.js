@@ -79,10 +79,10 @@ export const LocalGovernmentListWrapper = styled.div`
         text-align: left;
 
         @media screen and (min-width: 800px) {
-          margin-top: 1.4rem;
+          font-size: 1.4rem;
         }
         @media screen and (min-width: 1024px) {
-          margin-top: 1.6rem;
+          font-size: 1.6rem;
         }
       }
     }
