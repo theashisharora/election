@@ -10,10 +10,14 @@ const LocalGovernmentList = () => {
   return (
     <LocalGovernmentListWrapper>
       <section className="local-government">
-        <h3 className="local-government__header">Local Government</h3>
-        <ul className="local-government__list">
-          {localGovernments.map((localGovernment, index) => (
-            <li className="local-government__list--item" key={index}></li>
+        <h3 className="local-government__header">
+          {localGovernments[displayedIndex].name}
+        </h3>
+        <ul className="local-government__wards">
+          {localGovernments[displayedIndex].wards.map((ward, index) => (
+            <li className="local-government__wards--item" key={index}>
+              {ward}
+            </li>
           ))}
         </ul>
       </section>
