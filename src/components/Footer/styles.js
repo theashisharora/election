@@ -3,8 +3,8 @@ import styled from "styled-components";
 
 export const FooterWrapper = styled.footer`
   position: relative;
-  background-color: #f8f1e6;
-  border-bottom: 1px solid #e4caa0;
+  background-color: white;
+  border-top: 1px solid rgba(23, 29, 23, 0.2);
   /* background-color: red; */
 
   .container {
