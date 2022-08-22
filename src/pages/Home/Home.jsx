@@ -1,6 +1,11 @@
 import React from "react";
 import { Navbar } from "../../components";
-import { Banner, Features, TreeDoesntMake } from "../../modules/Homepage";
+import {
+  Banner,
+  Features,
+  SecondBanner,
+  TreeDoesntMake,
+} from "../../modules/Homepage";
 
 const Home = () => {
   return (
@@ -9,6 +14,7 @@ const Home = () => {
       <Banner />
       <Features />
       <TreeDoesntMake />
+      <SecondBanner />
     </div>
   );
 };
