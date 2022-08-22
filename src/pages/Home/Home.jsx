@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar } from "../../components";
+import { Footer, Navbar } from "../../components";
 import {
   Banner,
   Features,
@@ -17,6 +17,7 @@ const Home = () => {
       <TreeDoesntMake />
       <SecondBanner />
       <Support />
+      <Footer />
     </div>
   );
 };
