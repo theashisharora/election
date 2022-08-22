@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { ChangeFeaturesCard } from "../../../components";
+import { ChangeFeaturesCard, LocalGovernmentList } from "../../../components";
 import { features } from "../../../data";
 
 const Features = () => {
@@ -21,7 +21,9 @@ const Features = () => {
             <h6 className="vote-ypp">#VoteYPP</h6>
             <h3 className="district">Lagos Central Senatorial District</h3>
           </div>
-          <div className="right"></div>
+          <div className="right">
+            <LocalGovernmentList />
+          </div>
         </section>
       </section>
     </Wrapper>
@@ -139,7 +141,8 @@ const Wrapper = styled.section`
     @media screen and (min-width: 640px) {
       margin-top: 80px;
     }
-    @media screen and (min-width: 800px) {
+    @media screen and (min-width: 960px) {
+      flex-wrap: nowrap;
       margin-top: 100px;
     }
     @media screen and (min-width: 960px) {
@@ -160,6 +163,38 @@ const Wrapper = styled.section`
     .left {
       max-width: 370px;
       text-align: center;
+
+      h6 {
+        font-weight: 700;
+        line-height: 150%;
+        color: #ffc6c7;
+        font-size: 1.6rem;
+        @media screen and (min-width: 960px) {
+          font-size: 1.8rem;
+        }
+        @media screen and (min-width: 1200px) {
+          font-size: 2rem;
+        }
+      }
+
+      h3 {
+        font-weight: 600;
+        line-height: 125%;
+        color: #faf1e5;
+        font-size: 2.4rem;
+        margin-top: 16px;
+        @media screen and (min-width: 960px) {
+          font-size: 2.8rem;
+        }
+        @media screen and (min-width: 1200px) {
+          font-size: 3.2rem;
+        }
+      }
+
+      @media screen and (min-width: 960px) {
+        width: 40%;
+        text-align: left;
+      }
     }
   }
 `;
