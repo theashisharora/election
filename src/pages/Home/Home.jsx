@@ -4,6 +4,7 @@ import {
   Banner,
   Features,
   SecondBanner,
+  Support,
   TreeDoesntMake,
 } from "../../modules/Homepage";
 
@@ -15,6 +16,7 @@ const Home = () => {
       <Features />
       <TreeDoesntMake />
       <SecondBanner />
+      <Support />
     </div>
   );
 };
