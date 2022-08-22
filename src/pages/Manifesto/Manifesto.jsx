@@ -1,11 +1,12 @@
 import React from "react";
-import { Navbar } from "../../components";
+import { Footer, Navbar } from "../../components";
 
 const Manifesto = () => {
   return (
     <div>
       {" "}
       <Navbar />
+      <Footer />
     </div>
   );
 };

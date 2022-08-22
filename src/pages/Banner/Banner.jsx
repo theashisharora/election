@@ -1,10 +1,11 @@
 import React from "react";
-import { Navbar } from "../../components";
+import { Footer, Navbar } from "../../components";
 
 const Banner = () => {
   return (
     <div>
       <Navbar />
+      <Footer />
     </div>
   );
 };

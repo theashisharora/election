@@ -6,17 +6,17 @@ const TreeDoesntMake = () => {
   return (
     <Wrapper className="container">
       <section className="container__sub subb">
-        <h2>A Tree Doesn’t Make A Forest.</h2>
+        <h2 data-aos="fade-up">A Tree Doesn’t Make A Forest.</h2>
         <section className="flex">
-          <div className="flex__left">
-            <p>
+          <div data-aos="fade-up" className="flex__left">
+            <p data-aos="fade-up">
               It is the job of the Senate to make legislation that secure, unite
               and make Nigeria productive. This is a long-term project that
               requires consistency. We can not achieve much of that with the
               people who do not care or with those who secured their candidature
               with a N100m application form.
             </p>
-            <p>
+            <p data-aos="fade-up">
               My mission goal is to change Nigeria and that will require
               changing those that represent us in the upper chambers of the
               National Assembly. We cannot do the same thing and get a different

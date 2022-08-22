@@ -2,13 +2,14 @@
 import React from "react";
 import { PageNotFoundWrapper } from "./styles";
 import { useParams } from "react-router";
-import { Navbar } from "../../components";
+import { Footer, Navbar } from "../../components";
 
 const PageNotFound = () => {
   return;
   <PageNotFoundWrapper>
     <Navbar darkMode={true} />
     <h3>Page not found</h3>
+    <Footer />
   </PageNotFoundWrapper>;
 };
 

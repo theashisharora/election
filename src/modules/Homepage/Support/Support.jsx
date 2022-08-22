@@ -11,20 +11,41 @@ const Support = () => {
   return (
     <Wrapper className="container">
       <section className="container__sub subb">
-        <h6>#VoteYPP</h6>
-        <h2>Show Your Support And Get Any Of These</h2>
+        <h6 data-aos="fade-up">#VoteYPP</h6>
+        <h2 data-aos="fade-up">Show Your Support And Get Any Of These</h2>
         <section className="support-materials">
-          <Link to={"/donate"} className="support-materials__item">
-            <img src={supportMaterial1} />
-            <div className="support-materials__item--after"></div>
+          <Link
+            data-aos="fade-up"
+            to={"/donate"}
+            className="support-materials__item"
+          >
+            <img data-aos="fade-up" src={supportMaterial1} />
+            <div
+              // data-aos="fade-up"
+              className="support-materials__item--after"
+            ></div>
           </Link>
-          <Link to={"/donate"} className="support-materials__item">
-            <img src={supportMaterial2} />
-            <div className="support-materials__item--after"></div>
+          <Link
+            data-aos="fade-up"
+            to={"/donate"}
+            className="support-materials__item"
+          >
+            <img data-aos="fade-up" src={supportMaterial2} />
+            <div
+              // data-aos="fade-up"
+              className="support-materials__item--after"
+            ></div>
           </Link>
-          <Link to={"/donate"} className="support-materials__item">
-            <img src={supportMaterial3} />
-            <div className="support-materials__item--after"></div>
+          <Link
+            data-aos="fade-up"
+            to={"/donate"}
+            className="support-materials__item"
+          >
+            <img data-aos="fade-up" src={supportMaterial3} />
+            <div
+              // data-aos="fade-up"
+              className="support-materials__item--after"
+            ></div>
           </Link>
         </section>
       </section>
@@ -121,6 +142,7 @@ const Wrapper = styled.section`
 
     &__item {
       background: #05231a;
+      overflow: hidden;
       border-radius: 50%;
       width: 240px;
       height: 240px;

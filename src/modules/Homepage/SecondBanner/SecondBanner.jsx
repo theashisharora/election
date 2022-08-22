@@ -6,11 +6,11 @@ const SecondBanner = () => {
   return (
     <Wrapper className="container">
       <section className="container__sub subb">
-        <h1>
+        <h1 data-aos="fade-right">
           In the Spirit of <span>#EndSars</span>
         </h1>
-        <h1>Vote Youth Progressives Party (YPP)</h1>
-        <h1>For Lagos Central Senatorial District</h1>
+        <h1 data-aos="fade-left">Vote Youth Progressives Party (YPP)</h1>
+        <h1 data-aos="fade-right">For Lagos Central Senatorial District</h1>
       </section>
     </Wrapper>
   );

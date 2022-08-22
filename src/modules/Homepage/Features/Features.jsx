@@ -7,10 +7,16 @@ const Features = () => {
   return (
     <Wrapper className="container">
       <section className="container__sub subb">
-        <h3 className="features__header--text">Let’s Make Real Change</h3>
+        <h3 data-aos="fade-up" className="features__header--text">
+          Let’s Make Real Change
+        </h3>
         <ul className="features__list">
           {features.map((feature) => (
-            <li className="features__list--item" key={feature.id}>
+            <li
+              data-aos="fade-up"
+              className="features__list--item"
+              key={feature.id}
+            >
               <ChangeFeaturesCard {...feature} key={feature.title} />
             </li>
           ))}
@@ -18,10 +24,14 @@ const Features = () => {
 
         <section className="flex-section">
           <div className="left">
-            <h6 className="vote-ypp">#VoteYPP</h6>
-            <h3 className="district">Lagos Central Senatorial District</h3>
+            <h6 data-aos="fade-up" className="vote-ypp">
+              #VoteYPP
+            </h6>
+            <h3 data-aos="fade-up" className="district">
+              Lagos Central Senatorial District
+            </h3>
           </div>
-          <div className="right">
+          <div data-aos="fade-up" className="right">
             <LocalGovernmentList />
           </div>
         </section>
@@ -99,6 +109,7 @@ const Wrapper = styled.section`
       &--item {
         width: 100%;
         margin-bottom: 30px;
+
         /* max-width: 370px; */
 
         @media screen and (min-width: 700px) {

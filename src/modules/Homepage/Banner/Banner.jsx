@@ -7,12 +7,14 @@ const Banner = () => {
     <Wrapper className="container">
       <section className="container__sub subb">
         <div className="banner__left">
-          <h2>CHANGE THE SENATE </h2>
-          <h1>CHANGE NIGERIA</h1>
-          <p>
+          <h2 data-aos="fade-up">CHANGE THE SENATE </h2>
+          <h1 data-aos="fade-up">CHANGE NIGERIA</h1>
+          <p data-aos="fade-up">
             Vote Oladeji Blessing Tunde for <br /> SENATE LAGOS CENTRAL
           </p>
-          <button className="btn btn__filled">Read Manifesto</button>
+          <button data-aos="fade-up" className="btn btn__filled">
+            Read Manifesto
+          </button>
         </div>
         <img
           src={bannerImage}

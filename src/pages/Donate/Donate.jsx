@@ -1,11 +1,11 @@
 import React from "react";
-import { Navbar } from "../../components";
+import { Footer, Navbar } from "../../components";
 
 const Donate = () => {
   return (
     <div>
-      {" "}
       <Navbar />
+      <Footer />
     </div>
   );
 };
