@@ -53,7 +53,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     &__sub {
-      max-width: 1340px;
+      max-width: 1200px;
       margin: 0 auto;
     }
 

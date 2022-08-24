@@ -1,12 +1,13 @@
 import React from "react";
 import { Footer, Navbar } from "../../components";
-import { Banner } from "../../modules/Manifesto";
+import { AgendaSection, Banner } from "../../modules/Manifesto";
 
 const Manifesto = () => {
   return (
     <div>
       <Navbar />
       <Banner />
+      <AgendaSection />
       <Footer />
     </div>
   );
