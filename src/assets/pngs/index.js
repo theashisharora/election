@@ -7,3 +7,4 @@ export { default as supportMaterial2 } from "./support-material-2.png";
 export { default as supportMaterial3 } from "./support-material-3.png";
 export { default as agenda1 } from "./agenda-1.png";
 export { default as manifestoBannerImage } from "./manifesto-banner-image.png";
+export { default as donateBannerImage } from "./donate-banner-image.png";
