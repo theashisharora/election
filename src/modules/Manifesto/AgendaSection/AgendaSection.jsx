@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import { AgendaFlex } from "../../../components";
+import { agendas } from "../../../data";
 
 const AgendaSection = () => {
   return (
@@ -39,6 +41,12 @@ const AgendaSection = () => {
             </p>
           </div>
         </article>
+
+        <ul className="agendas-list">
+          {agendas.map((agenda) => (
+            <AgendaFlex {...agenda} key={agenda.headerText} />
+          ))}
+        </ul>
       </section>
     </Wrapper>
   );
@@ -159,6 +167,20 @@ const Wrapper = styled.section`
           margin-bottom: 24px;
         }
       }
+    }
+  }
+
+  .agendas-list {
+    padding-top: 30px;
+
+    @media screen and (min-width: 960px) {
+      padding-top: 40px;
+    }
+    @media screen and (min-width: 1024px) {
+      padding-top: 50px;
+    }
+    @media screen and (min-width: 1200px) {
+      padding-top: 60px;
     }
   }
 `;
