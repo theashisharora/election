@@ -3,6 +3,10 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { AgendaFlex } from "../../../components";
 import { agendas } from "../../../data";
+import { logo } from "../../../assets/pngs";
+import { svgs } from "../../../assets/svgs";
+
+const { PartyLogo } = svgs;
 
 const AgendaSection = () => {
   return (
@@ -47,6 +51,8 @@ const AgendaSection = () => {
             <AgendaFlex {...agenda} key={agenda.headerText} />
           ))}
         </ul>
+
+        <img src={PartyLogo} alt="YPP logo rotating" className="logo" />
       </section>
     </Wrapper>
   );
@@ -181,6 +187,27 @@ const Wrapper = styled.section`
     }
     @media screen and (min-width: 1200px) {
       padding-top: 60px;
+    }
+  }
+
+  .logo {
+    width: 400px;
+    height: 400px;
+    max-width: 90%;
+    padding: 1.5em;
+    will-change: filter;
+    animation-name: logo-spin;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
     }
   }
 `;

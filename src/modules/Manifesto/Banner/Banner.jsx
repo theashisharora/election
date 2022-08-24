@@ -17,11 +17,11 @@ const Banner = () => {
           alt="Oladeji Blessing in a senatorial pose"
         />
 
-        <div className="mission" data-aos="fade-up">
+        <div className="mission">
           <h3 className="mission__header" data-aos="fade-up">
             Mission & Policy
           </h3>
-          <article className="mission__body" data-aos="fade-up">
+          <article className="mission__body">
             <p className="mission__body--text" data-aos="fade-up">
               It is the job of the Senate to make legislation that secure, unite
               and make Nigeria productive. This is a long-term project that
