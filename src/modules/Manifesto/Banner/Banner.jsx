@@ -1,26 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import { bannerImage } from "../../../assets/pngs";
+import { manifestoBannerImage } from "../../../assets/pngs";
 
 const Banner = () => {
   return (
     <Wrapper className="container">
       <section className="container__sub subb">
-        <div className="banner__left">
-          <h2 data-aos="fade-up">CHANGE THE SENATE </h2>
-          <h1 data-aos="fade-up">CHANGE NIGERIA</h1>
-          <p data-aos="fade-up">
-            Vote Oladeji Blessing Tunde for <br /> SENATE LAGOS CENTRAL
-          </p>
-          <Link to="/manifesto">
-            <button data-aos="fade-up" className="btn btn__filled">
-              Read Manifesto
-            </button>
-          </Link>
-        </div>
+        {/* <div className="banner__left"> */}
+        <h2 data-aos="fade-up">CHANGE THE SENATE </h2>
+        <h1 data-aos="fade-up">CHANGE NIGERIA</h1>
+
+        {/* </div> */}
         <img
-          src={bannerImage}
+          src={manifestoBannerImage}
           className="banner__right"
           alt="Oladeji Blessing in a senatorial pose"
         />
@@ -34,12 +27,10 @@ export default Banner;
 const Wrapper = styled.section`
   background-color: #f8f1e6;
   overflow-x: hidden;
+  border-bottom: 3.5px solid #e4caa0;
 
   .container {
     &__sub {
-      display: flex;
-      align-items: center;
-      flex-wrap: wrap;
       padding-top: 80px;
 
       @media screen and (min-width: 960px) {
@@ -50,9 +41,9 @@ const Wrapper = styled.section`
   }
 
   .banner {
-    &__left {
+    /* &__left {
       width: 100%;
-    }
+    } */
     &__right {
       width: 100%;
 
