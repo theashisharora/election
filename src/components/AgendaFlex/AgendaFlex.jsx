@@ -8,7 +8,9 @@ const AgendaFlex = ({ headerText, body, image }) => {
         <img src={image} alt={`${headerText}`} class="flex__left--image" />
       </div>
       <div className="flex__right">
-        <h3 class="flex__header">{headerText}</h3>
+        <h3 data-aos="fade-up" class="flex__header">
+          {headerText}
+        </h3>
         <> {body}</>
       </div>
     </AgendaFlexWrapper>
