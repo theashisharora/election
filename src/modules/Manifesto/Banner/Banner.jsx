@@ -11,29 +11,32 @@ const Banner = () => {
         <h1 data-aos="fade-up">CHANGE NIGERIA</h1>
 
         <img
+          data-aos="fade-up"
           src={manifestoBannerImage}
           className="banner__image"
           alt="Oladeji Blessing in a senatorial pose"
         />
 
-        <div className="mission">
-          <h3 className="mission__header">Mission & Policy</h3>
-          <article className="mission__body">
-            <p className="mission__body--text">
+        <div className="mission" data-aos="fade-up">
+          <h3 className="mission__header" data-aos="fade-up">
+            Mission & Policy
+          </h3>
+          <article className="mission__body" data-aos="fade-up">
+            <p className="mission__body--text" data-aos="fade-up">
               It is the job of the Senate to make legislation that secure, unite
               and make Nigeria productive. This is a long-term project that
               requires consistency. We can not achieve much of that with the
               people who do not care or with those who secured their candidature
               with a N100m application form
             </p>
-            <p className="mission__body--text">
+            <p data-aos="fade-up" className="mission__body--text">
               My mission is to change Nigeria and that will require changing
               those that represent us in the upper chambers of the National
               Assembly. We cannot do the same thing and get a different result.
               We cannot elect the same crop of politicians and change the
               country.
             </p>
-            <p className="mission__body--text">
+            <p data-aos="fade-up" className="mission__body--text">
               So, I have the honour today to present myself to you as the next
               senator of Lagos Central Senatorial district – God willing!
             </p>
