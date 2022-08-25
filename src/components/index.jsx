@@ -4,3 +4,4 @@ export { default as ChangeFeaturesCard } from "./ChangeFeaturesCard/ChangeFeatur
 export { default as LocalGovernmentList } from "./LocalGovernmentList/LocalGovernmentList";
 export { default as Footer } from "./Footer/Footer";
 export { default as AgendaFlex } from "./AgendaFlex/AgendaFlex";
+export { default as DonationsTable } from "./DonationsTable/DonationsTable";
