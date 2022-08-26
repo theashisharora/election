@@ -153,3 +153,6 @@ const Wrapper = styled.section`
     padding: 12px 26px;
   }
 `;
+
+// change ypp.com to ypp.ng
+// make navbar fixed
