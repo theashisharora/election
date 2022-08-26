@@ -1,6 +1,6 @@
 import React from "react";
 import { Footer, Navbar } from "../../components";
-import { Banner } from "../../modules/Profile";
+import { Banner, ProfileInfo } from "../../modules/Profile";
 
 const Profile = () => {
   return (
@@ -8,6 +8,7 @@ const Profile = () => {
       {" "}
       <Navbar />
       <Banner />
+      <ProfileInfo />
       <Footer />
     </div>
   );
