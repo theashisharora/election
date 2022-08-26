@@ -36,7 +36,12 @@ const Navbar = () => {
               </NavListItem>
 
               <NavListItem>
-                <a href="https://ypp.com" className="nav__link">
+                <a
+                  href="https://ypp.ng"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="nav__link"
+                >
                   <span>About The Party</span>
                   <div className="line"></div>
                 </a>{" "}
@@ -93,7 +98,12 @@ const Navbar = () => {
             </NavL>
           </NavListItem>
           <NavListItem>
-            <a href="https://ypp.com" className="nav__link">
+            <a
+              href="https://ypp.ng"
+              target="_blank"
+              rel="noreferrer"
+              className="nav__link"
+            >
               <span>About The Party</span>
               <div className="line"></div>
             </a>{" "}

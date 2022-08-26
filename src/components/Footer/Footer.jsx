@@ -26,7 +26,7 @@ const Footer = () => {
             Donate
           </Link>
           <a
-            href={"https://ypp.com"}
+            href={"https://ypp.ng"}
             target="_blank"
             rel="noreferrer"
             className="btn btn__outline"

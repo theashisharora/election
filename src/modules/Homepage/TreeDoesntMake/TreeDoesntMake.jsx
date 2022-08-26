@@ -154,5 +154,4 @@ const Wrapper = styled.section`
   }
 `;
 
-// change ypp.com to ypp.ng
 // make navbar fixed
