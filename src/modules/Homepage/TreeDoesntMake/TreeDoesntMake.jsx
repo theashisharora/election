@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { iVotedIllustration } from "../../../assets/pngs";
 
@@ -25,7 +26,9 @@ const TreeDoesntMake = () => {
               as the next senator of Lagos Central Senatorial district – God
               willing!
             </p>
-            <button className="btn btn__filled">Read Manifesto</button>
+            <Link to="/manifesto">
+              <button className="btn btn__filled">Read Manifesto</button>
+            </Link>
           </div>
           <img
             className="flex__right"

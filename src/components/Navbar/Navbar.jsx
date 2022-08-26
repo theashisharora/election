@@ -62,7 +62,12 @@ const Navbar = () => {
             <Link className="btn btn__filled md-show" to="/donate">
               Donate
             </Link>
-            <a className="btn btn__outline md-show" href="https://kdd.com">
+            <a
+              className="btn btn__outline md-show"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSce2xBCAIfwoEcKOGrBu_fbaLjjC4b6F6wklBTPDjSvqvVufQ/viewform"
+              target="_blank"
+              rel="noreferrer"
+            >
               Volunteer
             </a>
             <MenuButton
@@ -111,7 +116,12 @@ const Navbar = () => {
           <Link className="btn btn__filled" to="/donate">
             Donate
           </Link>
-          <a className="btn btn__outline" href="https://kdd.com">
+          <a
+            className="btn btn__outline"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSce2xBCAIfwoEcKOGrBu_fbaLjjC4b6F6wklBTPDjSvqvVufQ/viewform"
+            target="_blank"
+            rel="noreferrer"
+          >
             Volunteer
           </a>
         </section>

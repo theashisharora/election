@@ -27,25 +27,120 @@ const BannerList = () => {
   return (
     <Wrapper className="container">
       <section className="container__sub subb">
-        <img src={banner1} alt="banner" className="banner__image" />
-        <img src={banner2} alt="banner" className="banner__image" />
-        <img src={banner3} alt="banner" className="banner__image" />
-        <img src={banner4} alt="banner" className="banner__image" />
-        <img src={banner5} alt="banner" className="banner__image" />
-        <img src={banner6} alt="banner" className="banner__image" />
-        <img src={banner7} alt="banner" className="banner__image" />
-        <img src={banner8} alt="banner" className="banner__image" />
-        <img src={banner9} alt="banner" className="banner__image" />
-        <img src={banner10} alt="banner" className="banner__image" />
-        <img src={banner11} alt="banner" className="banner__image" />
-        <img src={banner12} alt="banner" className="banner__image" />
-        <img src={banner13} alt="banner" className="banner__image" />
-        <img src={banner14} alt="banner" className="banner__image" />
-        <img src={banner15} alt="banner" className="banner__image" />
-        <img src={banner16} alt="banner" className="banner__image" />
-        <img src={banner17} alt="banner" className="banner__image" />
-        <img src={banner18} alt="banner" className="banner__image" />
-        <img src={banner19} alt="banner" className="banner__image" />
+        <img
+          src={banner1}
+          alt="banner"
+          className="banner__image"
+          data-aos="fade-up"
+        />
+        <img
+          src={banner2}
+          alt="banner"
+          className="banner__image"
+          data-aos="fade-up"
+        />
+        <img
+          src={banner3}
+          alt="banner"
+          className="banner__image"
+          data-aos="fade-up"
+        />
+        <img
+          src={banner4}
+          alt="banner"
+          className="banner__image"
+          data-aos="fade-up"
+        />
+        <img
+          src={banner5}
+          alt="banner"
+          className="banner__image"
+          data-aos="fade-up"
+        />
+        <img
+          src={banner6}
+          alt="banner"
+          className="banner__image"
+          data-aos="fade-up"
+        />
+        <img
+          src={banner7}
+          alt="banner"
+          className="banner__image"
+          data-aos="fade-up"
+        />
+        <img
+          src={banner8}
+          alt="banner"
+          className="banner__image"
+          data-aos="fade-up"
+        />
+        <img
+          src={banner9}
+          alt="banner"
+          className="banner__image"
+          data-aos="fade-up"
+        />
+        <img
+          src={banner10}
+          alt="banner"
+          className="banner__image"
+          data-aos="fade-up"
+        />
+        <img
+          src={banner11}
+          alt="banner"
+          className="banner__image"
+          data-aos="fade-up"
+        />
+        <img
+          src={banner12}
+          alt="banner"
+          className="banner__image"
+          data-aos="fade-up"
+        />
+        <img
+          src={banner13}
+          alt="banner"
+          className="banner__image"
+          data-aos="fade-up"
+        />
+        <img
+          src={banner14}
+          alt="banner"
+          className="banner__image"
+          data-aos="fade-up"
+        />
+        <img
+          src={banner15}
+          alt="banner"
+          className="banner__image"
+          data-aos="fade-up"
+        />
+        <img
+          src={banner16}
+          alt="banner"
+          className="banner__image"
+          data-aos="fade-up"
+        />
+        <img
+          src={banner17}
+          alt="banner"
+          className="banner__image"
+          data-aos="fade-up"
+        />
+        <img
+          src={banner18}
+          alt="banner"
+          className="banner__image"
+          data-aos="fade-up"
+        />
+        <img
+          src={banner19}
+          alt="banner"
+          className="banner__image"
+          data-aos="fade-up"
+        />
       </section>
     </Wrapper>
   );
