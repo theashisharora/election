@@ -21,6 +21,7 @@ import {
   banner7,
   banner8,
   banner9,
+  banner20,
 } from "../../../assets/pngs/banners";
 
 const BannerList = () => {
@@ -137,6 +138,12 @@ const BannerList = () => {
         />
         <img
           src={banner19}
+          alt="banner"
+          className="banner__image"
+          data-aos="fade-up"
+        />
+        <img
+          src={banner20}
           alt="banner"
           className="banner__image"
           data-aos="fade-up"

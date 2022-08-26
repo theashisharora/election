@@ -17,3 +17,4 @@ export { default as banner16 } from "./16.jpeg";
 export { default as banner17 } from "./17.jpeg";
 export { default as banner18 } from "./18.jpeg";
 export { default as banner19 } from "./19.jpeg";
+export { default as banner20 } from "./20.jpeg";
