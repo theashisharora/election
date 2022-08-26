@@ -151,6 +151,7 @@ export default BannerList;
 const Wrapper = styled.section`
   background-color: #fff;
   overflow-x: hidden;
+  padding-top: 80px;
 
   .container {
     &__sub {

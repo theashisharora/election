@@ -55,6 +55,7 @@ const Wrapper = styled.section`
   background-color: #f8f1e6;
   /* overflow-x: hidden; */
   border-bottom: 3.5px solid #e4caa0;
+  padding-top: 80px;
 
   .container {
     &__sub {

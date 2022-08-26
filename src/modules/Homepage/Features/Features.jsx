@@ -45,6 +45,7 @@ export default Features;
 const Wrapper = styled.section`
   background-color: #127254;
   overflow-x: hidden;
+  overflow-y: hidden;
 
   .container {
     &__sub {

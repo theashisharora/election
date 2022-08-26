@@ -219,7 +219,7 @@ export const NavDropdown = styled.section.attrs({
     rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
   transform-style: preserve-3d;
   &.open {
-    position: absolute;
+    position: fixed;
     z-index: 383333383;
     transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg)
       rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);

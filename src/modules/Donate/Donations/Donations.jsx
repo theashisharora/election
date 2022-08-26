@@ -21,6 +21,8 @@ export default Banner;
 
 const Wrapper = styled.section`
   background-color: #fff;
+  padding-top: 80px;
+
   /* overflow-x: hidden; */
 
   .container {
