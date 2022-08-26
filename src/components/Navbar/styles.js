@@ -2,7 +2,8 @@ import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 export const NavbarWrapper = styled.header`
-  position: relative;
+  position: fixed;
+  top: 0;
   background-color: #f8f1e6;
   border-bottom: 1px solid #e4caa0;
   z-index: 494999949;
@@ -37,7 +38,7 @@ export const NavbarWrapper = styled.header`
     }
   }
 
-  position: relative;
+  /* position: relative; */
   display: flex;
   justify-content: space-between;
   .home {
@@ -210,6 +211,7 @@ export const NavDropdown = styled.section.attrs({
 })`
   width: 100%;
   background: #f8f1e6;
+  padding-top: 72px;
   z-index: 8;
   height: 100vh;
   position: fixed;

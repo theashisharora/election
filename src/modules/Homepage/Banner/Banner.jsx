@@ -34,6 +34,7 @@ export default Banner;
 const Wrapper = styled.section`
   background-color: #f8f1e6;
   overflow-x: hidden;
+  padding-top: 80px;
 
   .container {
     &__sub {
