@@ -25,6 +25,10 @@ export const DonationsTableWrapper = styled.section`
   table {
     border-collapse: collapse;
     width: 100%;
+    display: block;
+    @media screen and (min-width: 960px) {
+      width: max-content;
+    }
   }
 
   th,
@@ -35,7 +39,7 @@ export const DonationsTableWrapper = styled.section`
     text-align: left;
     color: #747774;
     white-space: pre;
-    min-width: 300px;
+    min-width: 200px;
 
     @media screen and (min-width: 720px) {
       margin-top: 40px;
@@ -43,6 +47,7 @@ export const DonationsTableWrapper = styled.section`
     @media screen and (min-width: 960px) {
       margin-top: 50px;
       font-size: 1.8rem;
+      min-width: 300px;
     }
     @media screen and (min-width: 1024px) {
       margin-top: 60px;
@@ -63,6 +68,33 @@ export const DonationsTableWrapper = styled.section`
   }
 
   tbody {
-    padding-top: 24px;
+    tr {
+      &:first-child {
+        td {
+          margin-top: 40px;
+        }
+      }
+      td {
+        background: #f9f7f3;
+        padding: 26px;
+        text-transform: capitalize;
+        &:first-child {
+          border-top-left-radius: 10px;
+          border-bottom-left-radius: 10px;
+        }
+        &:last-child {
+          border-top-right-radius: 10px;
+          border-bottom-right-radius: 10px;
+        }
+      }
+    }
+
+    .row-container {
+      margin-bottom: 16px;
+    }
+  }
+
+  .body-container {
+    margin-top: 24px;
   }
 `;

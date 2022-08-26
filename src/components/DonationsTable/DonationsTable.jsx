@@ -17,35 +17,42 @@ const DonationsTable = () => {
             <th>Date</th>
           </tr>
         </thead>
-        <tbody>
-          {donations.map((donation) => {
-            const {
-              amount,
-              authorization: { bank, channel },
-              createdAt,
-              currency,
-              customer: { first_name, last_name },
-              status,
-            } = donation;
+        <article className="body-container">
+          <tbody>
+            {donations.map((donation) => {
+              const {
+                amount,
+                authorization: { bank, channel },
+                createdAt,
+                currency,
+                customer: { first_name, last_name },
+                status,
+              } = donation;
 
-            if (status === "success") {
-              return (
-                <tr>
-                  <td>
-                    {first_name} {last_name}
-                  </td>
-                  <td>
-                    {currency} {numberWithCommas(amount / 100)}
-                  </td>
+              if (status !== "success") {
+                return (
+                  <div className="row-container">
+                    <tr>
+                      <td>
+                        {first_name} {last_name}
+                      </td>
+                      <td>
+                        {currency} {numberWithCommas(amount / 100)}
+                      </td>
 
-                  <td>
-                    {new Date(createdAt).toLocaleDateString("en-UK", options)}
-                  </td>
-                </tr>
-              );
-            }
-          })}
-        </tbody>
+                      <td>
+                        {new Date(createdAt).toLocaleDateString(
+                          "en-UK",
+                          options
+                        )}
+                      </td>
+                    </tr>
+                  </div>
+                );
+              }
+            })}
+          </tbody>
+        </article>
       </table>
     </DonationsTableWrapper>
   );
