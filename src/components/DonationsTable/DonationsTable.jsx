@@ -2,58 +2,63 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useGetDonations } from "../../hooks/donations";
+import Loader from "../Loader/Loader";
 import { DonationsTableWrapper } from "./styles";
 
 const DonationsTable = () => {
-  const { donations } = useGetDonations();
+  const { donations, loading } = useGetDonations();
 
   return (
     <DonationsTableWrapper>
-      <table class="donations-table">
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Amount</th>
-            <th>Date</th>
-          </tr>
-        </thead>
-        <article className="body-container">
-          <tbody>
-            {donations.map((donation) => {
-              const {
-                amount,
-                authorization: { bank, channel },
-                createdAt,
-                currency,
-                customer: { first_name, last_name },
-                status,
-              } = donation;
+      {loading ? (
+        <Loader />
+      ) : (
+        <table class="donations-table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Amount</th>
+              <th>Date</th>
+            </tr>
+          </thead>
+          <article className="body-container">
+            <tbody>
+              {donations.map((donation) => {
+                const {
+                  amount,
+                  authorization: { bank, channel },
+                  createdAt,
+                  currency,
+                  customer: { first_name, last_name },
+                  status,
+                } = donation;
 
-              if (status !== "success") {
-                return (
-                  <div className="row-container">
-                    <tr>
-                      <td>
-                        {first_name} {last_name}
-                      </td>
-                      <td>
-                        {currency} {numberWithCommas(amount / 100)}
-                      </td>
+                if (status === "success") {
+                  return (
+                    <div className="row-container">
+                      <tr>
+                        <td>
+                          {first_name} {last_name}
+                        </td>
+                        <td>
+                          {currency} {numberWithCommas(amount / 100)}
+                        </td>
 
-                      <td>
-                        {new Date(createdAt).toLocaleDateString(
-                          "en-UK",
-                          options
-                        )}
-                      </td>
-                    </tr>
-                  </div>
-                );
-              }
-            })}
-          </tbody>
-        </article>
-      </table>
+                        <td>
+                          {new Date(createdAt).toLocaleDateString(
+                            "en-UK",
+                            options
+                          )}
+                        </td>
+                      </tr>
+                    </div>
+                  );
+                }
+              })}
+            </tbody>
+          </article>
+        </table>
+      )}
     </DonationsTableWrapper>
   );
 };
