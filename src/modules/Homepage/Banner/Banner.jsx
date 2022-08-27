@@ -125,7 +125,7 @@ const Wrapper = styled.section`
       font-size: 2.2rem;
     }
     @media screen and (min-width: 1200px) {
-      font-size: 2.4rem;
+      font-size: 2.8rem;
     }
   }
 

@@ -5,10 +5,10 @@ import { Banner, Donations } from "../../modules/Donate";
 const Donate = () => {
   return (
     <div>
-      <Navbar />
+      <Navbar page="donate" />
       <Banner />
       <Donations />
-      <Footer />
+      <Footer page="donate" />
     </div>
   );
 };

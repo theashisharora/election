@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FooterWrapper } from "./styles";
 
-const Footer = () => {
+const Footer = ({ page }) => {
   return (
     <FooterWrapper className="container">
       <section className="container__sub subb">
@@ -22,9 +22,19 @@ const Footer = () => {
           </a>
         </div>
         <div className="footer__right">
-          <Link to={"/donate"} className="btn btn__filled">
-            Donate
-          </Link>
+          {page === "donate" ? (
+            <a
+              href="https://paystack.com/pay/oladeji-lagos-central-donation"
+              target={"_blank"}
+              rel="noreferrer"
+            >
+              <button className="btn btn__filled">Donate</button>
+            </a>
+          ) : (
+            <Link to={"/donate"} className="btn btn__filled">
+              Donate
+            </Link>
+          )}
           <a
             href={"https://ypp.ng"}
             target="_blank"

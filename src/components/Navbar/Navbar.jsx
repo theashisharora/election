@@ -12,7 +12,7 @@ import { svgs } from "../../assets/svgs";
 import { logo } from "../../assets/pngs";
 
 const { MenuIcon, Close } = svgs;
-const Navbar = () => {
+const Navbar = ({ date, page }) => {
   const [isOpen, setIsOpen] = React.useState(false);
 
   return (
@@ -64,9 +64,20 @@ const Navbar = () => {
           </nav>
 
           <section className="nav__buttons">
-            <Link className="btn btn__filled md-show" to="/donate">
-              Donate
-            </Link>
+            {page === "donate" ? (
+              <a
+                href="https://paystack.com/pay/oladeji-lagos-central-donation"
+                target={"_blank"}
+                rel="noreferrer"
+              >
+                <button className="btn btn__filled md-show">Donate</button>
+              </a>
+            ) : (
+              <Link className="btn btn__filled md-show" to="/donate">
+                Donate
+              </Link>
+            )}
+
             <a
               className="btn btn__outline md-show"
               href="https://docs.google.com/forms/d/e/1FAIpQLSce2xBCAIfwoEcKOGrBu_fbaLjjC4b6F6wklBTPDjSvqvVufQ/viewform"
