@@ -5,7 +5,6 @@ export const DonationsTableWrapper = styled.section`
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 30px;
   overflow-x: scroll;
   flex-direction: column;
   align-items: center;
@@ -14,15 +13,16 @@ export const DonationsTableWrapper = styled.section`
     width: 0px;
     height: 0;
   }
+  margin-top: 5px;
 
   @media screen and (min-width: 720px) {
-    margin-top: 40px;
+    margin-top: 10px;
   }
   @media screen and (min-width: 960px) {
-    margin-top: 50px;
+    margin-top: 15px;
   }
   @media screen and (min-width: 1024px) {
-    margin-top: 60px;
+    margin-top: 20px;
   }
   table {
     border-collapse: collapse;
@@ -102,11 +102,37 @@ export const DonationsTableWrapper = styled.section`
 
   .pagination {
     margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     &__summary {
       font-size: 1.4rem;
       color: #171d17;
       margin-bottom: 8px;
+    }
+  }
+
+  .total {
+    font-size: 1.6rem;
+    b {
+      font-size: 100%;
+    }
+
+    margin-bottom: 25px;
+
+    @media screen and (min-width: 720px) {
+      margin-bottom: 30px;
+      font-size: 1.7rem;
+    }
+    @media screen and (min-width: 960px) {
+      margin-bottom: 35px;
+      font-size: 1.8rem;
+    }
+    @media screen and (min-width: 1024px) {
+      margin-bottom: 40px;
+      font-size: 2rem;
     }
   }
 `;

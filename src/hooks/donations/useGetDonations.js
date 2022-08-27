@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 const useGetDonations = () => {
   const [donations, setDonations] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [total, setTotal] = useState(0);
   const SLK = "sk_test_5f55171caf4eb07154eeaa55558a112634396c46";
   const myHeaders = new Headers();
   myHeaders.append(
@@ -23,10 +24,20 @@ const useGetDonations = () => {
     fetch("https://api.paystack.co/transaction", requestOptions)
       .then((response) => response.json())
       .then((result) => {
-        // loadingNode.style.display = "none";
         const data = result.data;
 
-        setDonations(data.filter(({ status }) => status === "success"));
+        let sum = 0;
+        setDonations(
+          data.filter(({ status, amount }) => {
+            if (status === "success") {
+              sum += amount;
+              return true;
+            }
+            return false;
+          })
+        );
+
+        setTotal(sum / 100);
       })
       .catch((error) => console.log("error", error))
       .finally(() => {
@@ -34,7 +45,7 @@ const useGetDonations = () => {
       });
   }, []);
 
-  return { donations, loading };
+  return { donations, loading, total };
 };
 
 export default useGetDonations;

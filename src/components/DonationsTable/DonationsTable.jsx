@@ -9,7 +9,7 @@ import Pagination from "@mui/material/Pagination";
 import Stack from "@mui/material/Stack";
 
 const DonationsTable = () => {
-  const { donations, loading } = useGetDonations();
+  const { donations, loading, total } = useGetDonations();
   const { bounds, handleChange, ITEMS_PER_PAGE, page } =
     usePagination(donations);
   const [count, setCount] = useState(0);
@@ -19,6 +19,12 @@ const DonationsTable = () => {
   }, [donations]);
   return (
     <DonationsTableWrapper>
+      <p className="total">
+        Total donations:{" "}
+        <b>
+          {donations[0].currency} {total}
+        </b>
+      </p>
       {loading ? (
         <Loader />
       ) : (
