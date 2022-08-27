@@ -7,6 +7,8 @@ export const DonationsTableWrapper = styled.section`
   justify-content: center;
   margin-top: 30px;
   overflow-x: scroll;
+  flex-direction: column;
+  align-items: center;
 
   &::-webkit-scrollbar {
     width: 0px;
@@ -96,5 +98,15 @@ export const DonationsTableWrapper = styled.section`
 
   .body-container {
     margin-top: 24px;
+  }
+
+  .pagination {
+    margin-top: 32px;
+
+    &__summary {
+      font-size: 1.4rem;
+      color: #171d17;
+      margin-bottom: 8px;
+    }
   }
 `;

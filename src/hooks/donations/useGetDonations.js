@@ -26,7 +26,7 @@ const useGetDonations = () => {
         // loadingNode.style.display = "none";
         const data = result.data;
 
-        setDonations(data);
+        setDonations(data.filter(({ status }) => status === "success"));
       })
       .catch((error) => console.log("error", error))
       .finally(() => {
