@@ -78,5 +78,20 @@ export const FooterWrapper = styled.footer`
         }
       }
     }
+
+    &__socials {
+      display: flex;
+      margin-top: 16px;
+      align-items: center;
+      justify-content: center;
+      &--link {
+        margin-right: 20px;
+        display: block;
+
+        &:first-child {
+          margin-right: 20px !important;
+        }
+      }
+    }
   }
 `;

@@ -22,7 +22,7 @@ const DonationsTable = () => {
       <p className="total">
         Total donations:{" "}
         <b>
-          {donations[0].currency} {total}
+          {donations[0]?.currency} {total}
         </b>
       </p>
       {loading ? (

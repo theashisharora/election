@@ -2,7 +2,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FooterWrapper } from "./styles";
+import { svgs } from "../../assets/svgs";
 
+const { Facebook, Twitter, Instagram } = svgs;
 const Footer = ({ page }) => {
   return (
     <FooterWrapper className="container">
@@ -20,6 +22,32 @@ const Footer = ({ page }) => {
           >
             CONTACT US
           </a>
+          <div class="footer__socials">
+            <a
+              href="https://www.instagram.com/blessiola/"
+              rel="noopener noreferrer"
+              target="_blank"
+              class="footer__socials--link"
+            >
+              <Instagram />
+            </a>
+            <a
+              href="https://twitter.com/Blessing_Ola"
+              rel="noopener noreferrer"
+              target="_blank"
+              class="footer__socials--link"
+            >
+              <Twitter />
+            </a>
+            <a
+              href="https://web.facebook.com/oladeji.blessing"
+              rel="noopener noreferrer"
+              target="_blank"
+              class="footer__socials--link"
+            >
+              <Facebook />
+            </a>
+          </div>
         </div>
         <div className="footer__right">
           {page === "donate" ? (
