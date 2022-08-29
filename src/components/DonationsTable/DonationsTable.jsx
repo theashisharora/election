@@ -79,7 +79,7 @@ const DonationsTable = () => {
         <div className="pagination">
           <p className="pagination__summary">
             Showing {bounds[0] + 1} to {bounds[1] > count ? count : bounds[1]}{" "}
-            accounts of {count} donations
+             of {count} donations
           </p>
 
           <Stack spacing={2}>
