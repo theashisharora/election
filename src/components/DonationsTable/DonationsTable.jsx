@@ -22,7 +22,7 @@ const DonationsTable = () => {
       <p className="total">
         Total donations:{" "}
         <b>
-          {donations[0]?.currency} {total}
+          {donations[0]?.currency} {numberWithCommas(total)}
         </b>
       </p>
       {loading ? (
@@ -59,7 +59,7 @@ const DonationsTable = () => {
                           {currency} {numberWithCommas(amount / 100)}
                         </td>
 
-                        <td>
+                        <td className="time">
                           {new Date(createdAt).toLocaleDateString(
                             "en-UK",
                             options
@@ -79,7 +79,7 @@ const DonationsTable = () => {
         <div className="pagination">
           <p className="pagination__summary">
             Showing {bounds[0] + 1} to {bounds[1] > count ? count : bounds[1]}{" "}
-            accounts of {count}
+            accounts of {count} donations
           </p>
 
           <Stack spacing={2}>
@@ -106,7 +106,7 @@ const options = {
   day: "2-digit",
   hour: "2-digit",
   minute: "2-digit",
-  second: "2-digit",
+  // second: "2-digit",
   hour12: true,
 };
 

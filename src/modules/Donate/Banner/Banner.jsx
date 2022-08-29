@@ -36,6 +36,14 @@ const Banner = () => {
             Get on board with Blessing Oladeji and help us win this critical
             special election by making a donation today.
           </p>
+          <p className="message__text message__text--accent">
+            A single donation must not exceed NGN 50m. You can also donate
+            anonymously by calling{" "}
+            <a className="message__text--link" href="tel:+2348032002338">
+              08032002338
+            </a>{" "}
+            to make a cash donation
+          </p>
           <a
             href="https://paystack.com/pay/oladeji-lagos-central-donation"
             target={"_blank"}
@@ -174,7 +182,8 @@ const Wrapper = styled.section`
       padding: 60px;
     }
 
-    &__text {
+    &__text,
+    &__text--link {
       font-weight: 500;
       font-size: 1.4rem;
       line-height: 140%;
@@ -190,6 +199,12 @@ const Wrapper = styled.section`
       }
       @media screen and (min-width: 1200px) {
         font-size: 2rem;
+      }
+
+      &--accent,
+      &--link {
+        color: #d82e33;
+        font-weight: 800;
       }
     }
   }
