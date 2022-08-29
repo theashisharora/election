@@ -66,7 +66,7 @@ const Navbar = ({ date, page }) => {
           <section className="nav__buttons">
             {page === "donate" ? (
               <a
-                href="https://paystack.com/pay/oladeji-lagos-central-donation"
+                href="https://paystack.com/pay/oladeji-for-senate"
                 target={"_blank"}
                 rel="noreferrer"
               >

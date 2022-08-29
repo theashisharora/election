@@ -52,7 +52,7 @@ const Footer = ({ page }) => {
         <div className="footer__right">
           {page === "donate" ? (
             <a
-              href="https://paystack.com/pay/oladeji-lagos-central-donation"
+              href="https://paystack.com/pay/oladeji-for-senate"
               target={"_blank"}
               rel="noreferrer"
             >

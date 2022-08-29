@@ -32,20 +32,18 @@ const Banner = () => {
             within this constituency. You can view all donations we have
             recieved here
           </p>
+          <p className="message__text message__text--accent">
+            You can choose to donate anonymously but a single individual
+            donation must not exceed N50m (Fifty Million Naira). Please call
+            0803 200 2338 for cheque or cash donations.
+          </p>
           <p className="message__text">
             Get on board with Blessing Oladeji and help us win this critical
             special election by making a donation today.
           </p>
-          <p className="message__text message__text--accent">
-            A single donation must not exceed NGN 50m. You can also donate
-            anonymously by calling{" "}
-            <a className="message__text--link" href="tel:+2348032002338">
-              08032002338
-            </a>{" "}
-            to make a cash donation
-          </p>
+
           <a
-            href="https://paystack.com/pay/oladeji-lagos-central-donation"
+            href="https://paystack.com/pay/oladeji-for-senate"
             target={"_blank"}
             rel="noreferrer"
           >
@@ -203,7 +201,7 @@ const Wrapper = styled.section`
 
       &--accent,
       &--link {
-        color: #d82e33;
+        /* color: #d82e33; */
         font-weight: 800;
       }
     }
