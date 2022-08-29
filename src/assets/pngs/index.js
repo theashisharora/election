@@ -1,11 +1,11 @@
 export { default as bannerImage } from "./banner-image.png";
-export { default as iVotedIllustration } from "./i-voted-illustration.png";
 export { default as logo } from "./logo.png";
 export { default as secondBannerBg } from "./second-banner-bg.png";
-export { default as supportMaterial1 } from "./support-material-1.png";
-export { default as supportMaterial2 } from "./support-material-2.png";
-export { default as supportMaterial3 } from "./support-material-3.png";
 export { default as agenda1 } from "./agenda-1.png";
 export { default as manifestoBannerImage } from "./manifesto-banner-image.png";
 export { default as donateBannerImage } from "./donate-banner-image.png";
 export { default as profileBannerImage } from "./profile-banner-image.png";
+export { default as swag1 } from "./swag1.png";
+export { default as swag2 } from "./swag2.png";
+export { default as swag3 } from "./swag3.png";
+export { default as voteNow } from "./vote-now.jpeg";

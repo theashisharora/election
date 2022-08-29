@@ -1,11 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import {
-  supportMaterial1,
-  supportMaterial2,
-  supportMaterial3,
-} from "../../../assets/pngs";
+import { swag1, swag2, swag3 } from "../../../assets/pngs";
 
 const Support = () => {
   return (
@@ -19,7 +15,7 @@ const Support = () => {
             to={"/donate"}
             className="support-materials__item"
           >
-            <img data-aos="fade-up" src={supportMaterial1} />
+            <img data-aos="fade-up" src={swag1} />
             <div
               // data-aos="fade-up"
               className="support-materials__item--after"
@@ -30,7 +26,7 @@ const Support = () => {
             to={"/donate"}
             className="support-materials__item"
           >
-            <img data-aos="fade-up" src={supportMaterial2} />
+            <img data-aos="fade-up" src={swag2} />
             <div
               // data-aos="fade-up"
               className="support-materials__item--after"
@@ -41,7 +37,7 @@ const Support = () => {
             to={"/donate"}
             className="support-materials__item"
           >
-            <img data-aos="fade-up" src={supportMaterial3} />
+            <img data-aos="fade-up" src={swag3} />
             <div
               // data-aos="fade-up"
               className="support-materials__item--after"

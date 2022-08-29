@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import { iVotedIllustration } from "../../../assets/pngs";
+import { voteNow } from "../../../assets/pngs";
 
 const TreeDoesntMake = () => {
   return (
@@ -30,11 +30,7 @@ const TreeDoesntMake = () => {
               <button className="btn btn__filled">Read Manifesto</button>
             </Link>
           </div>
-          <img
-            className="flex__right"
-            alt="I will vote"
-            src={iVotedIllustration}
-          />
+          <img className="flex__right" alt="I will vote" src={voteNow} />
         </section>
       </section>
     </Wrapper>

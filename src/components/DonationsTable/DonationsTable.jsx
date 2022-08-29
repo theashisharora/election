@@ -48,6 +48,11 @@ const DonationsTable = () => {
                     customer: { first_name, last_name },
                     status,
                   } = donation;
+                  let date = new Date(createdAt).toLocaleDateString(
+                    "en-UK",
+                    options
+                  );
+                  date = `${date.slice(0, -3)}${date.slice(-2).toLowerCase()}`;
 
                   return (
                     <div className="row-container">
@@ -59,12 +64,7 @@ const DonationsTable = () => {
                           {currency} {numberWithCommas(amount / 100)}
                         </td>
 
-                        <td className="time">
-                          {new Date(createdAt).toLocaleDateString(
-                            "en-UK",
-                            options
-                          )}
-                        </td>
+                        <td className="time">{date}</td>
                       </tr>
                     </div>
                   );
