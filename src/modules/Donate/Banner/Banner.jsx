@@ -35,7 +35,11 @@ const Banner = () => {
           <p className="message__text message__text--accent">
             You can choose to donate anonymously but a single individual
             donation must not exceed N50m (Fifty Million Naira). Please call
-            0803 200 2338 for cheque or cash donations.
+            <a href="tel:+2348032002338" className="message__text--link">
+              {" "}
+              0803 200 2338
+            </a>{" "}
+            for cheque or cash donations.
           </p>
           <p className="message__text">
             Get on board with Blessing Oladeji and help us win this critical
@@ -203,6 +207,10 @@ const Wrapper = styled.section`
       &--link {
         /* color: #d82e33; */
         font-weight: 800;
+      }
+
+      &--link {
+        text-decoration: underline;
       }
     }
   }
