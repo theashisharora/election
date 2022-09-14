@@ -252,6 +252,16 @@ const Wrapper = styled.section`
   background-color: #fff;
   overflow-x: hidden;
 
+  ol {
+    list-style: decimal;
+
+    li {
+      list-style: decimal;
+      margin-left: 16px;
+      padding-left: 8px;
+    }
+  }
+
   .container {
     &__sub {
       padding: 50px 0;
