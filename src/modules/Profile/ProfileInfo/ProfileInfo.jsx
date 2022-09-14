@@ -9,7 +9,7 @@ const Banner = () => {
       <section className="container__sub subb">
         <article className="profile__pre">
           <p className="profile__pre--text" data-aos="fade-up">
-            I am vying for the position of Lagos central senatorial seat under
+            I am vying for the position of Lagos Central Senatorial seat under
             the auspices of the Young Progressive Party. Lagos Central comprises
             of Apapa, and Eti-Osa from Obalende to Sangotedo, Lagos Island,
             Lagos Mainland and Surulere.
@@ -23,16 +23,16 @@ const Banner = () => {
               <h5 className="profile__reason--card-header">Early Life </h5>
               <div className="profile__reason--card-body">
                 <p className="profile__reason--card-body__text">
-                  Oladeji Blessing Olatunde was born less than 40 years ago in a
-                  public general hospital to parents working in the public
-                  sector. My father served in the Nigerian Police and spent most
-                  of his service years in Lagos investigating crimes, while my
-                  mum was into commodity trading. Due to the quality at that
-                  time, all of my education was in public school from primary
-                  school to University. To be in public schools in the 90s and
-                  2000s, teachers union strike was a common experience. This
-                  struck me as unfair, even as at then, how children's lives and
-                  times waste away due to frequent industrial actions.
+                  I was born less than 40 years ago in a public general hospital
+                  to parents working in the public sector. My father served in
+                  the Nigerian Police and spent most of his service years in
+                  Lagos investigating crimes, while my mum was into commodity
+                  trading. Due to the quality at that time, all of my education
+                  was in public school from primary school to University. To be
+                  in public schools in the 90s and 2000s, teachers union strike
+                  was a common experience. This struck me as unfair, even as at
+                  then, how children's lives and times waste away due to
+                  frequent industrial actions.
                 </p>
               </div>
             </article>
@@ -76,54 +76,6 @@ const Banner = () => {
                   It’s time for a true change. It’s time to deliver to, and for
                   the future generation, and as your Senator.
                 </p>
-              </div>
-            </article>
-            <article className="profile__reason--card">
-              <h5 className="profile__reason--card-header">Experience </h5>
-              <div className="profile__reason--card-body">
-                <p className="profile__reason--card-body__text">
-                  I have been the CEO of Octave Analytics company for the past 6
-                  years, creating job opportunities and IT capacity building for
-                  young people. I have been able to lead teams leveraging data
-                  and technology to drive growth and sustainability for
-                  businesses listed on Nigeria Stock Exchange making them
-                  profitable despite recessions and currency devaluation. We
-                  have significantly expanded the tech ecosystem and created a
-                  large market for talents locally and internationally. Before
-                  Octave Analytics I was:
-                </p>
-                <ol>
-                  <li className="profile__reason--card-body__text">
-                    Head of Analytics at Etisalat Nigeria now 9mobile Telecoms
-                  </li>
-                  <li className="profile__reason--card-body__text">
-                    Snr. System Integration Specialist at MTN Nigeria
-                  </li>
-                  <li className="profile__reason--card-body__text">
-                    Project Manager, Applications and Software at Huawei
-                    Technologies
-                  </li>
-                  <li className="profile__reason--card-body__text">
-                    Assistant Manager, Database & Infrastructure at UnityKapital
-                    Assurance (now Veritas Insurance)
-                  </li>
-                  <li className="profile__reason--card-body__text">
-                    Senior Consultant, Unity Bank Data Cleansing Project
-                    following the merger of 9 financial institutions post 2007
-                    banks consolidation
-                  </li>
-                  <li className="profile__reason--card-body__text">
-                    Asst. Manager, Training at Afribub Training Institute
-                  </li>
-                </ol>
-              </div>
-            </article>
-          </div>
-
-          <div className="profile__reason--flex">
-            <article className="profile__reason--card">
-              <h5 className="profile__reason--card-header">Opportunities</h5>
-              <div className="profile__reason--card-body">
                 <p className="profile__reason--card-body__text">
                   However, amid all these challenges, I see hope and great
                   opportunities for the future of our country. One practical way
@@ -235,6 +187,92 @@ const Banner = () => {
                     credentialing organizations such as Oracle, Data Science
                     Council of America, Cisco Inc. and International Institute
                     of Business Analysis
+                  </li>
+                </ol>
+              </div>
+            </article>
+          </div>
+
+          <div className="profile__reason--flex">
+            {/* <article className="profile__reason--card">
+              <h5 className="profile__reason--card-header">Opportunities</h5>
+              <div className="profile__reason--card-body">
+                <p className="profile__reason--card-body__text">
+                  However, amid all these challenges, I see hope and great
+                  opportunities for the future of our country. One practical way
+                  I have attempted to address this problem is by setting up
+                  Octave Analytics to bridge the gaps between town and gown. At
+                  Octave, I have worked with promising young graduates to expand
+                  their skill sets in tech and data science fields. Through our
+                  Graduate Internship Programmes, we have created a flowing
+                  pipeline of top talents in Data Science for the global
+                  markets. These talents dominate blue chip companies in Nigeria
+                  and abroad generating foreign remittances that boost Nigeria's
+                  economy.
+                </p>
+                <p className="profile__reason--card-body__text">
+                  As someone who works very closely with the youth population, I
+                  see a lot of raw talent but the legislative and governmental
+                  systems that can harness the best out of them are lacking.
+                  This is my strongest motivation for vying for a seat in the
+                  Senate.
+                </p>
+                <p className="profile__reason--card-body__text">
+                  One thing that keeps me awake at night and drives the vision
+                  is seeing a raw talent rising from obscurity to rubbing
+                  shoulders with other talents in global organizations. This has
+                  been the story of my life and I wish to replicate it more in
+                  others. I have seen a talent from Nsukka who started coding
+                  SQL on paper but today heads the Artificial Intelligence
+                  function in a bluechip company in Nigeria. Another talent was
+                  a farmer in Niger state under the FADAMA II project in 2018
+                  now heads the Analytics and Business Intelligence functions in
+                  a first-generation bank. There can be much more but our
+                  success so far is limited by inefficiencies and bureaucracies
+                  in government. Our success is limited by the security
+                  challenges in the country. This has led to a significant brain
+                  drain and capital flight with Nigerian startups relocating to
+                  Kenya, Kigali and Cairo. And, this is not affecting the tech
+                  business alone.{" "}
+                </p>
+              </div>
+            </article> */}
+            <article className="profile__reason--card profile__reason--card__full">
+              <h5 className="profile__reason--card-header">Experience </h5>
+              <div className="profile__reason--card-body">
+                <p className="profile__reason--card-body__text">
+                  I have been the CEO of Octave Analytics company for the past 6
+                  years, creating job opportunities and IT capacity building for
+                  young people. I have been able to lead teams leveraging data
+                  and technology to drive growth and sustainability for
+                  businesses listed on Nigeria Stock Exchange making them
+                  profitable despite recessions and currency devaluation. We
+                  have significantly expanded the tech ecosystem and created a
+                  large market for talents locally and internationally. Before
+                  Octave Analytics I was:
+                </p>
+                <ol>
+                  <li className="profile__reason--card-body__text">
+                    Head of Analytics at Etisalat Nigeria now 9mobile Telecoms
+                  </li>
+                  <li className="profile__reason--card-body__text">
+                    Snr. System Integration Specialist at MTN Nigeria
+                  </li>
+                  <li className="profile__reason--card-body__text">
+                    Project Manager, Applications and Software at Huawei
+                    Technologies
+                  </li>
+                  <li className="profile__reason--card-body__text">
+                    Assistant Manager, Database & Infrastructure at UnityKapital
+                    Assurance (now Veritas Insurance)
+                  </li>
+                  <li className="profile__reason--card-body__text">
+                    Senior Consultant, Unity Bank Data Cleansing Project
+                    following the merger of 9 financial institutions post 2007
+                    banks consolidation
+                  </li>
+                  <li className="profile__reason--card-body__text">
+                    Asst. Manager, Training at Afribub Training Institute
                   </li>
                 </ol>
               </div>
@@ -377,6 +415,11 @@ const Wrapper = styled.section`
           }
         }
 
+        &__full {
+          min-width: 80%;
+          margin-right: 0 !important;
+        }
+
         padding: 24px;
         @media screen and (min-width: 640px) {
           padding: 32px;
@@ -445,3 +488,8 @@ const Wrapper = styled.section`
     }
   }
 `;
+
+// proper noun "Lahos central senatorial"
+// earlyulife (use first person pronoun here)   challenges
+// oppoetunitiescombined with drive   experience
+// achievements    recognition
