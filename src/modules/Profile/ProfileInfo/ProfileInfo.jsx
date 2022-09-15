@@ -62,21 +62,6 @@ const Banner = () => {
               <h5 className="profile__reason--card-header">The Drive</h5>
               <div className="profile__reason--card-body">
                 <p className="profile__reason--card-body__text">
-                  My journey to the Senate is to create an enabling environment
-                  where we can do more and better for ourselves. I am also a
-                  strong advocate for defending the land from the dangers of
-                  climate change which are directly related to resource
-                  contention in the Northern states and across some southern
-                  states in the country. I will protect women’s rights and
-                  ensure inclusiveness and equal opportunity for all genders. I
-                  will work to end insecurity and injustice in the land. A vote
-                  for me is a vote to end dark money and godfathers’ influence
-                  on our politics, and will always put your voices ahead of
-                  those of other politicians’ wealthy campaign contributors.
-                  It’s time for a true change. It’s time to deliver to, and for
-                  the future generation, and as your Senator.
-                </p>
-                <p className="profile__reason--card-body__text">
                   However, amid all these challenges, I see hope and great
                   opportunities for the future of our country. One practical way
                   I have attempted to address this problem is by setting up
@@ -113,6 +98,21 @@ const Banner = () => {
                   drain and capital flight with Nigerian startups relocating to
                   Kenya, Kigali and Cairo. And, this is not affecting the tech
                   business alone.{" "}
+                </p>
+                <p className="profile__reason--card-body__text">
+                  My journey to the Senate is to create an enabling environment
+                  where we can do more and better for ourselves. I am also a
+                  strong advocate for defending the land from the dangers of
+                  climate change which are directly related to resource
+                  contention in the Northern states and across some southern
+                  states in the country. I will protect women’s rights and
+                  ensure inclusiveness and equal opportunity for all genders. I
+                  will work to end insecurity and injustice in the land. A vote
+                  for me is a vote to end dark money and godfathers’ influence
+                  on our politics, and will always put your voices ahead of
+                  those of other politicians’ wealthy campaign contributors.
+                  It’s time for a true change. It’s time to deliver to, and for
+                  the future generation, and as your senator.
                 </p>
               </div>
             </article>
