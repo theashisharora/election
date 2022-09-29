@@ -8,7 +8,7 @@ const useGetDonations = () => {
   const myHeaders = new Headers();
   myHeaders.append(
     "authorization",
-    "Bearer sk_live_31b6a8ac267ab1993042dcee22982f5c4dbaaa1d"
+    "Bearer sk_live_a04eca368733f073cfa5ee7a4be78eed707ee138"
   );
   const requestOptions = {
     method: "GET",

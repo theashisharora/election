@@ -47,7 +47,7 @@ const Banner = () => {
           </p>
 
           <a
-            href="https://paystack.com/pay/oladeji-for-senate"
+            href="https://paystack.com/pay/oladeji-lagos-central-donation"
             target={"_blank"}
             rel="noreferrer"
           >
