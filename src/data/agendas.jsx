@@ -1,4 +1,13 @@
-import { agenda1 } from "../assets/pngs";
+import {
+  agenda1,
+  manifesto1,
+  manifesto2,
+  manifesto3,
+  manifesto4,
+  manifesto5,
+  manifesto6,
+  manifesto7,
+} from "../assets/pngs";
 
 const agendas = [
   {
@@ -41,7 +50,7 @@ const agendas = [
         </ol>
       </article>
     ),
-    image: agenda1,
+    image: manifesto1,
   },
   {
     headerText: "Agenda 2: Fast-tracking Lekki Regional Road & Flood Control",
@@ -91,7 +100,7 @@ const agendas = [
         </ol>
       </article>
     ),
-    image: agenda1,
+    image: manifesto2,
   },
   {
     headerText: "Agenda 3: Formulate Policy to Grow the Nigeria Tech-Economy",
@@ -136,7 +145,7 @@ const agendas = [
         </ol>
       </article>
     ),
-    image: agenda1,
+    image: manifesto6,
   },
   {
     headerText: "Agenda 4: Constitutional Reforms and Restructuring",
@@ -180,7 +189,7 @@ const agendas = [
         </ol>
       </article>
     ),
-    image: agenda1,
+    image: manifesto4,
   },
   {
     headerText:
@@ -225,7 +234,7 @@ const agendas = [
         </ol>
       </article>
     ),
-    image: agenda1,
+    image: manifesto3,
   },
   {
     headerText:
@@ -269,7 +278,7 @@ const agendas = [
         </ol>
       </article>
     ),
-    image: agenda1,
+    image: manifesto1,
   },
   {
     headerText:
@@ -292,7 +301,7 @@ const agendas = [
         </p>
       </article>
     ),
-    image: agenda1,
+    image: manifesto2,
   },
 ];
 

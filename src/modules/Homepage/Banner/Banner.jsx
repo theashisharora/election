@@ -1,11 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { bannerImage } from "../../../assets/pngs";
 
 const Banner = () => {
+  const [hideBilling, setHideBilling] = useState(false);
+  function callHideBilling() {
+    console.log("hide billing", hideBilling);
+    setHideBilling(!hideBilling);
+  }
+
   return (
     <Wrapper className="container">
+      {console.log("hidennnn", hideBilling)}
+      <input onClick={() => callHideBilling()} />
       <section className="container__sub subb">
         <div className="banner__left">
           <h2 data-aos="fade-up">CHANGE THE SENATE </h2>
