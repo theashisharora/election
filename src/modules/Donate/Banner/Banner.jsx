@@ -4,12 +4,10 @@ import styled from "styled-components";
 import { donateBannerImage } from "../../../assets/pngs";
 import("react");
 
-donateBannerImage = 5;
-
 const Banner = () => {
   return (
     <Wrapper className="container">
-      {/* <section className="container__sub subb">
+      <section className="container__sub subb">
         <h2 data-aos="fade-up">DONATE TO A </h2>
         <h1 data-aos="fade-up">BETTER NIGERIA</h1>
 
@@ -57,7 +55,7 @@ const Banner = () => {
             <button className="btn btn__filled">Donate</button>
           </a>
         </article>
-      </section> */}
+      </section>
     </Wrapper>
   );
 };
