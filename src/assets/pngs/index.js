@@ -16,4 +16,3 @@ export { default as manifesto4 } from "./manifesto/four.jpeg";
 export { default as manifesto5 } from "./manifesto/five.jpeg";
 export { default as manifesto6 } from "./manifesto/six.jpeg";
 export { default as manifesto7 } from "./manifesto/seven.jpeg";
-export { default as manifesto8 } from "./manifesto/eight.jpeg";
