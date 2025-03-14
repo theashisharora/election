@@ -7,38 +7,30 @@ const Banner = () => {
   return (
     <Wrapper className="container">
       <section className="container__sub subb">
-        <h2 data-aos="fade-up">CHANGE THE SENATE </h2>
-        <h1 data-aos="fade-up">CHANGE NIGERIA</h1>
+        <h2 data-aos="fade-up">MAKE YOUR MARK </h2>
+        <h1 data-aos="fade-up">Financial Support</h1>
 
         <img
           data-aos="fade-up"
           src={manifestoBannerImage}
           className="banner__image"
-          alt="Oladeji Blessing in a senatorial pose"
+          alt="Ashish Arora"
         />
 
         <div className="mission">
           <h3 className="mission__header" data-aos="fade-up">
-            Mission & Policy
+            Board of Director
           </h3>
           <article className="mission__body">
             <p className="mission__body--text" data-aos="fade-up">
-              It is the job of the Senate to make legislation that secure, unite
-              and make Nigeria productive. This is a long-term project that
-              requires consistency. We can not achieve much of that with the
-              people who do not care or with those who secured their candidature
-              with a N100m application form
+              The Board of Directors is a group of elected representatives responsible for making high-level decisions that impact an organization. 
+              In the context of Sheridan College, the Board of Directors consists of 12 elected student representatives, with four members from each campus: Davis, HMC, and Trafalgar. 
+              Their primary role is to represent the interests of all students and make strategic decisions that shape the future of student life at Sheridan.
             </p>
             <p data-aos="fade-up" className="mission__body--text">
-              My mission is to change Nigeria and that will require changing
-              those that represent us in the upper chambers of the National
-              Assembly. We cannot do the same thing and get a different result.
-              We cannot elect the same crop of politicians and change the
-              country.
-            </p>
+            As a dedicated student leader, my mission is to represent and advocate for the diverse student body at Sheridan College by ensuring their voices are heard in key decision-making processes. I am committed to fostering a supportive and inclusive environment where students' needs, concerns, and aspirations shape the policies and initiatives that impact their academic and campus life. Through strategic planning, financial oversight, and collaboration with fellow directors and institutional leaders, I aim to drive meaningful changes that enhance student experiences—both now and for future generations. My focus is on transparency, accountability, and long-term improvements that empower students and strengthen our college community.            </p>
             <p data-aos="fade-up" className="mission__body--text">
-              So, I have the honour today to present myself to you as the next
-              senator of Lagos Central Senatorial district – God willing!
+              I'll leave the decision in your hands. Make the right choice and choose the right candidate. #MakeYourMark
             </p>
           </article>
         </div>
@@ -77,6 +69,7 @@ const Wrapper = styled.section`
     &__image {
       width: 100%;
       margin-top: 30px;
+      border-radius: 20px; /* Add this line to make the corners rounded */
       @media screen and (min-width: 720px) {
         margin-top: 40px;
       }

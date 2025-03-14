@@ -7,12 +7,13 @@ const SecondBanner = () => {
     <Wrapper className="container">
       <section className="container__sub subb">
         <h1 data-aos="fade-right">
-          In the Spirit of <span>#EndSars</span>
+          Let's do it <span>   #Vote4Ash</span>
         </h1>
-        <h1 data-aos="fade-left">Vote Youth Progressives Party (YPP)</h1>
-        <h1 data-aos="fade-right">For Lagos Central Senatorial District</h1>
+        <h1>Vote Ashish Arora for Davis Campus</h1>
+        <h1>Dates: March 24th to 28th</h1>
       </section>
     </Wrapper>
+    
   );
 };
 

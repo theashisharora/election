@@ -103,7 +103,7 @@ const Navbar = ({ date, page }) => {
       <NavDropdown className={!isOpen ? "" : "open"}>
         <ul className="nav__nav-list">
           <NavListItem>
-            <NavL to="/" darkMode={true}>
+            <NavL to="/" darkmode={true}>
               <span>Home</span>
               <div className="line"></div>
             </NavL>
@@ -120,13 +120,13 @@ const Navbar = ({ date, page }) => {
             </a>{" "}
           </NavListItem>
           <NavListItem>
-            <NavL to="/banners" darkMode={true}>
+            <NavL to="/banners" darkmode={true}>
               <span>Banners</span>
               <div className="line"></div>
             </NavL>
           </NavListItem>
           <NavListItem>
-            <NavL to="/profile" darkMode={true}>
+            <NavL to="/profile" darkmode={true}>
               <span>Meet Oladeji</span>
               <div className="line"></div>
             </NavL>

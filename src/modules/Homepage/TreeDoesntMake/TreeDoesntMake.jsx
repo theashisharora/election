@@ -10,27 +10,7 @@ const TreeDoesntMake = () => {
         <h2 data-aos="fade-up">A Tree Doesn’t Make A Forest.</h2>
         <section className="flex">
           <div data-aos="fade-up" className="flex__left">
-            <p data-aos="fade-up">
-              It is the job of the Senate to make legislation that secure, unite
-              and make Nigeria productive. This is a long-term project that
-              requires consistency. We can not achieve much of that with the
-              people who do not care or with those who secured their candidature
-              with a N100m application form.
-            </p>
-            <p data-aos="fade-up">
-              My mission goal is to change Nigeria and that will require
-              changing those that represent us in the upper chambers of the
-              National Assembly. We cannot do the same thing and get a different
-              result. We cannot elect the same crop of politicians and change
-              the country. So, I have the honour today to present myself to you
-              as the next senator of Lagos Central Senatorial district – God
-              willing!
-            </p>
-            <Link to="/manifesto">
-              <button className="btn btn__filled">Read Manifesto</button>
-            </Link>
           </div>
-          <img className="flex__right" alt="I will vote" src={voteNow} />
         </section>
       </section>
     </Wrapper>

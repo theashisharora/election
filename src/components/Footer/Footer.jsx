@@ -11,20 +11,20 @@ const Footer = ({ page }) => {
       <section className="container__sub subb">
         <div className="footer__left">
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSce2xBCAIfwoEcKOGrBu_fbaLjjC4b6F6wklBTPDjSvqvVufQ/viewform"
+            href="#"
             target="_blank"
           >
             GET INVOLVED
           </a>
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSce2xBCAIfwoEcKOGrBu_fbaLjjC4b6F6wklBTPDjSvqvVufQ/viewform"
+            href="mailto:asharo360@gmail.com"
             target="_blank"
           >
             CONTACT US
           </a>
           <div class="footer__socials">
             <a
-              href="https://www.instagram.com/blessiola/"
+              href="https://www.instagram.com/vote4ash/"
               rel="noopener noreferrer"
               target="_blank"
               class="footer__socials--link"
@@ -32,7 +32,7 @@ const Footer = ({ page }) => {
               <Instagram />
             </a>
             <a
-              href="https://twitter.com/Blessing_Ola"
+              href="#"
               rel="noopener noreferrer"
               target="_blank"
               class="footer__socials--link"
@@ -40,7 +40,7 @@ const Footer = ({ page }) => {
               <Twitter />
             </a>
             <a
-              href="https://web.facebook.com/oladeji.blessing"
+              href="#g"
               rel="noopener noreferrer"
               target="_blank"
               class="footer__socials--link"

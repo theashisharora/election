@@ -16,7 +16,6 @@ const Home = () => {
       <Features />
       <TreeDoesntMake />
       <SecondBanner />
-      <Support />
       <Footer />
     </div>
   );

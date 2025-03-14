@@ -95,6 +95,12 @@ const BannerList = () => {
           data-aos="fade-up"
         />
         <img
+          src={banner11}
+          alt="banner"
+          className="banner__image"
+          data-aos="fade-up"
+        />
+        <img
           src={banner12}
           alt="banner"
           className="banner__image"
@@ -169,12 +175,6 @@ const Wrapper = styled.section`
       }
       @media screen and (min-width: 1024px) {
         padding: 140px 0;
-      }
-      @media screen and (min-width: 1200px) {
-        padding: 160px 0;
-      }
-
-      display: flex;
       justify-content: center;
       flex-wrap: wrap;
     }

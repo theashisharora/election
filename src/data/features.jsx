@@ -2,40 +2,41 @@ const features = [
   {
     title: (
       <>
-        About Our <br />
-        Party
+        About <br />
+        Me
       </>
     ),
     description:
-      "Our vision is to build an egalitarian society anchored on Nigerian citizens as the prime resource, driven by mentally progressive and young innovative leaders without greed.",
+      "I’m a tech enthusiast at Sheridan College, focused on web development, machine learning, and cybersecurity.",
     ctaLabel: "Learn More",
-    link: "https://ypp.ng/",
+    link: "https://arashish.dev.fast.sheridanc.on.ca/dist/",
     isExternal: true,
   },
   {
     title: (
       <>
-        Become <br />A Volunteer
+        Join <br />
+        Our Team
       </>
     ),
     description:
-      "Democracy is powered by volunteers like you, and Oladeji's campaign is 100% people-powered. For a change, we have to take on the powerful, corrupting influence of godfather money in politics.",
-    ctaLabel: "Join Volunteer",
-    link: "https://docs.google.com/forms/d/e/1FAIpQLSce2xBCAIfwoEcKOGrBu_fbaLjjC4b6F6wklBTPDjSvqvVufQ/viewform",
+      "Our campaign thrives on the dedication of volunteers like you. Join us to make a difference and help drive positive change in our community.",
+    ctaLabel: "Join Us",
+    link: "#",
     isExternal: true,
   },
   {
     title: (
       <>
-        Donate To The <br />
-        Cause
+        Email <br />
+        Me
       </>
     ),
     description:
-      "Get on board with Blessing Oladeji and help us win this critical special election by making a donation today.",
-    ctaLabel: "Donate",
-    link: "/donate",
-    isExternal: false,
+      "Have any questions or want to get in touch? Feel free to send me an email.",
+    ctaLabel: "Email Me",
+    link: "mailto:asharo360@gmail.com",
+    isExternal: true,
   },
 ];
 

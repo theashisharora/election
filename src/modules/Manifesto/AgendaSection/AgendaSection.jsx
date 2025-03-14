@@ -12,46 +12,6 @@ const AgendaSection = () => {
   return (
     <Wrapper className="container">
       <section className="container__sub subb">
-        <h2 className="summary__header" data-aos="fade-up">
-          <span data-aos="fade-up">7-Point</span> Legislative Agenda
-        </h2>
-        <article className="summary__body">
-          <div className="summary__body--left">
-            <p data-aos="fade-up" className="summary__body--text">
-              The elders say “a tree does not make a forest”. As we seek to
-              elect a new President in 2023, you will agree that an effective
-              President needs a competent Senate. We need to constitute a Senate
-              that will bring the people hope and instill confidence in
-              investors who will facilitate our economic recovery.
-            </p>
-            <p data-aos="fade-up" className="summary__body--text">
-              It is in our hands to determine the kind of society we want to
-              live in, how we want to ensure common welfare and those who should
-              represent us to achieve these common aspirations.{" "}
-            </p>
-          </div>
-          <div className="summary__body--right">
-            <p data-aos="fade-up" className="summary__body--text">
-              One mistake we should not make is to elect people who are not
-              deeply connected with our pains in Lagos Central or
-              representatives that will not put the constituents first. We
-              should not vote for those who make us feel more and more helpless
-              about the change we desire.
-            </p>
-            <p data-aos="fade-up" className="summary__body--text">
-              In this era of economic instability, hyper inflation, security
-              challenges and incessant ASUU strike, if we want to change the
-              narrative, then, we must change the Senate!
-            </p>
-          </div>
-        </article>
-
-        <ul className="agendas-list">
-          {agendas.map((agenda) => (
-            <AgendaFlex {...agenda} key={agenda.headerText} />
-          ))}
-        </ul>
-
         <img src={PartyLogo} alt="YPP logo rotating" className="logo" />
       </section>
     </Wrapper>

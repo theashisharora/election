@@ -11,13 +11,13 @@ const Features = () => {
           Let’s Make Real Change
         </h3>
         <ul className="features__list">
-          {features.map((feature) => (
+          {features.map((feature, index) => (
             <li
               data-aos="fade-up"
               className="features__list--item"
-              key={feature.id}
+              key={index} // Ensure each item has a unique key
             >
-              <ChangeFeaturesCard {...feature} key={feature.title} />
+              <ChangeFeaturesCard {...feature} />
             </li>
           ))}
         </ul>
@@ -25,14 +25,14 @@ const Features = () => {
         <section className="flex-section">
           <div className="left">
             <h6 data-aos="fade-up" className="vote-ypp">
-              #VoteYPP
+              #Vote4Ash
             </h6>
             <h3 data-aos="fade-up" className="district">
-              Lagos Central Senatorial District
+              SSU Board of Directors
             </h3>
-          </div>
-          <div data-aos="fade-up" className="right">
-            <LocalGovernmentList />
+            <h3 data-aos="fade-up" className="district">
+              Dates: March 24th to 28th
+            </h3>
           </div>
         </section>
       </section>

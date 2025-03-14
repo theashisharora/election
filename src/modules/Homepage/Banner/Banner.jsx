@@ -16,10 +16,10 @@ const Banner = () => {
       <input onClick={() => callHideBilling()} />
       <section className="container__sub subb">
         <div className="banner__left">
-          <h2 data-aos="fade-up">CHANGE THE SENATE </h2>
-          <h1 data-aos="fade-up">CHANGE NIGERIA</h1>
+          <h2 data-aos="fade-up">MAKE YOUR MARK</h2>
+          <h1 data-aos="fade-up">Financial Support</h1>
           <p data-aos="fade-up">
-            Vote Oladeji Blessing Tunde for <br /> SENATE LAGOS CENTRAL
+            Vote Ashish Arora for <br /> Board of Directors
           </p>
           <Link to="/manifesto">
             <button data-aos="fade-up" className="btn btn__filled">

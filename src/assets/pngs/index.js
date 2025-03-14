@@ -1,6 +1,6 @@
 export { default as bannerImage } from "./banner-image.png";
 export { default as logo } from "./logo.png";
-export { default as secondBannerBg } from "./second-banner-bg.png";
+export { default as secondBannerBg } from "./IMG_8807.jpg";
 export { default as agenda1 } from "./agenda-1.png";
 export { default as manifestoBannerImage } from "./manifesto-banner-image.png";
 export { default as donateBannerImage } from "./donate-banner-image.png";
