@@ -4,7 +4,7 @@ export { default as secondBannerBg } from "./IMG_8807.jpg";
 export { default as agenda1 } from "./agenda-1.png";
 export { default as manifestoBannerImage } from "./manifesto-banner-image.png";
 export { default as donateBannerImage } from "./donate-banner-image.png";
-export { default as profileBannerImage } from "./profile-banner-image.png";
+export { default as profileBannerImage } from "./manifesto-banner-image.png";
 export { default as swag1 } from "./swag1.png";
 export { default as swag2 } from "./swag2.png";
 export { default as swag3 } from "./swag3.png";

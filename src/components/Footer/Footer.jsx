@@ -52,11 +52,11 @@ const Footer = ({ page }) => {
         <div className="footer__right">
           {page === "donate" ? (
             <a
-              href="https://paystack.com/pay/oladeji-lagos-central-donation"
+              href="mailto:asharo360@gmail.com"
               target={"_blank"}
               rel="noreferrer"
             >
-              <button className="btn btn__filled">Donate</button>
+              <button className="btn btn__filled">Contact</button>
             </a>
           ) : (
             <Link to={"/donate"} className="btn btn__filled">
@@ -64,12 +64,12 @@ const Footer = ({ page }) => {
             </Link>
           )}
           <a
-            href={"https://ypp.ng"}
+            href={"https://arashish.dev.fast.sheridanc.on.ca/dist/"}
             target="_blank"
             rel="noreferrer"
             className="btn btn__outline"
           >
-            About YPP
+            About Ash
           </a>
         </div>
       </section>

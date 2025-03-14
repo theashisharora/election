@@ -8,7 +8,7 @@ const Banner = () => {
     <Wrapper className="container">
       <section className="container__sub subb">
         <h2 data-aos="fade-up">Hi, my name is</h2>
-        <h1 data-aos="fade-up">Blessing Oladeji</h1>
+        <h1 data-aos="fade-up">Ashish Arora</h1>
 
         <img
           data-aos="fade-up"

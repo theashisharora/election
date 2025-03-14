@@ -37,26 +37,21 @@ const Navbar = ({ date, page }) => {
 
               <NavListItem>
                 <a
-                  href="https://ypp.ng"
+                  href="https://arashish.dev.fast.sheridanc.on.ca/dist/"
                   target="_blank"
                   rel="noreferrer"
                   className="nav__link"
                 >
-                  <span>About The Party</span>
+                  <span>About Me</span>
                   <div className="line"></div>
                 </a>{" "}
               </NavListItem>
 
-              <NavListItem>
-                <NavL to="/banners">
-                  <span>Banners</span>
-                  <div className="line"></div>
-                </NavL>
-              </NavListItem>
+              
 
               <NavListItem>
                 <NavL to="/profile">
-                  <span>Meet Oladeji</span>
+                  <span>Meet Ashish</span>
                   <div className="line"></div>
                 </NavL>
               </NavListItem>
@@ -110,40 +105,40 @@ const Navbar = ({ date, page }) => {
           </NavListItem>
           <NavListItem>
             <a
-              href="https://ypp.ng"
+              href="https://arashish.dev.fast.sheridanc.on.ca/dist/"
               target="_blank"
               rel="noreferrer"
               className="nav__link"
             >
-              <span>About The Party</span>
+              <span>About Me</span>
               <div className="line"></div>
             </a>{" "}
           </NavListItem>
           <NavListItem>
-            <NavL to="/banners" darkmode={true}>
-              <span>Banners</span>
-              <div className="line"></div>
-            </NavL>
-          </NavListItem>
-          <NavListItem>
             <NavL to="/profile" darkmode={true}>
-              <span>Meet Oladeji</span>
+              <span>Meet Ashish</span>
               <div className="line"></div>
             </NavL>
           </NavListItem>
         </ul>
 
         <section className="dropdown__buttons">
-          <Link className="btn btn__filled" to="/donate">
-            Donate
-          </Link>
+          
           <a
-            className="btn btn__outline"
-            href="https://docs.google.com/forms/d/e/1FAIpQLSce2xBCAIfwoEcKOGrBu_fbaLjjC4b6F6wklBTPDjSvqvVufQ/viewform"
+            className="btn btn__filled"
+            href="mailto:asharo360@gmail.co"
             target="_blank"
             rel="noreferrer"
           >
-            Volunteer
+            Contact
+          </a>
+          <a
+            className="btn btn__outline"
+            href="https://arashish.dev.fast.sheridanc.on.ca/dist/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            About Ash
           </a>
         </section>
       </NavDropdown>
