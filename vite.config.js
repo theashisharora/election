@@ -5,6 +5,7 @@ import reactSvgPlugin from "vite-plugin-react-svg";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), reactSvgPlugin()],
+  base: "/election",
   server: {
     mimeTypes: {
       'application/javascript': ['js']
