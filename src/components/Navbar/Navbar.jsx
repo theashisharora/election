@@ -47,8 +47,6 @@ const Navbar = ({ date, page }) => {
                 </a>{" "}
               </NavListItem>
 
-              
-
               <NavListItem>
                 <NavL to="/profile">
                   <span>Meet Ashish</span>
@@ -61,25 +59,31 @@ const Navbar = ({ date, page }) => {
           <section className="nav__buttons">
             {page === "donate" ? (
               <a
-                href="https://paystack.com/pay/oladeji-lagos-central-donation"
-                target={"_blank"}
+                className="btn btn__filled"
+                href="mailto:asharo360@gmail.com"
+                target="_blank"
                 rel="noreferrer"
               >
-                <button className="btn btn__filled md-show">Donate</button>
+                Contact
               </a>
             ) : (
-              <Link className="btn btn__filled md-show" to="/donate">
-                Donate
-              </Link>
+              <a
+                className="btn btn__filled md-show"
+                href="mailto:asharo360@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Contact
+              </a>
             )}
 
             <a
               className="btn btn__outline md-show"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSce2xBCAIfwoEcKOGrBu_fbaLjjC4b6F6wklBTPDjSvqvVufQ/viewform"
+              href="https://www.instagram.com/vote4ash/"
               target="_blank"
               rel="noreferrer"
             >
-              Volunteer
+              Instagram
             </a>
             <MenuButton
               onClick={() => {
@@ -123,7 +127,6 @@ const Navbar = ({ date, page }) => {
         </ul>
 
         <section className="dropdown__buttons">
-          
           <a
             className="btn btn__filled"
             href="mailto:asharo360@gmail.co"

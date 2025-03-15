@@ -1,4 +1,3 @@
-// Imports
 import React from "react";
 import { Link } from "react-router-dom";
 import { FooterWrapper } from "./styles";
@@ -10,24 +9,18 @@ const Footer = ({ page }) => {
     <FooterWrapper className="container">
       <section className="container__sub subb">
         <div className="footer__left">
-          <a
-            href="#"
-            target="_blank"
-          >
+          <a href="#" target="_blank">
             GET INVOLVED
           </a>
-          <a
-            href="mailto:asharo360@gmail.com"
-            target="_blank"
-          >
+          <a href="mailto:asharo360@gmail.com" target="_blank">
             CONTACT US
           </a>
-          <div class="footer__socials">
+          <div className="footer__socials">
             <a
               href="https://www.instagram.com/vote4ash/"
               rel="noopener noreferrer"
               target="_blank"
-              class="footer__socials--link"
+              className="footer__socials--link"
             >
               <Instagram />
             </a>
@@ -35,7 +28,7 @@ const Footer = ({ page }) => {
               href="#"
               rel="noopener noreferrer"
               target="_blank"
-              class="footer__socials--link"
+              className="footer__socials--link"
             >
               <Twitter />
             </a>
@@ -43,7 +36,7 @@ const Footer = ({ page }) => {
               href="#g"
               rel="noopener noreferrer"
               target="_blank"
-              class="footer__socials--link"
+              className="footer__socials--link"
             >
               <Facebook />
             </a>
@@ -59,9 +52,14 @@ const Footer = ({ page }) => {
               <button className="btn btn__filled">Contact</button>
             </a>
           ) : (
-            <Link to={"/donate"} className="btn btn__filled">
-              Donate
-            </Link>
+            <a
+              href="mailto:asharo360@gmail.com"
+              className="btn btn__filled"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Contact
+            </a>
           )}
           <a
             href={"https://arashish.dev.fast.sheridanc.on.ca/dist/"}
