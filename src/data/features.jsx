@@ -22,7 +22,7 @@ const features = [
     description:
       "Our campaign thrives on the dedication of volunteers like you. Join us to make a difference and help drive positive change in our community.",
     ctaLabel: "Join Us",
-    link: "#",
+    link: "https://forms.gle/wmRKmoahZVqWYf7F6",
     isExternal: true,
   },
   {

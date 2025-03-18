@@ -34,7 +34,7 @@ const Navbar = ({ date, page }) => {
                   <div className="line"></div>
                 </NavL>
               </NavListItem>
-
+{/*
               <NavListItem>
                 <a
                   href="https://arashish.dev.fast.sheridanc.on.ca/dist/"
@@ -46,6 +46,7 @@ const Navbar = ({ date, page }) => {
                   <div className="line"></div>
                 </a>{" "}
               </NavListItem>
+*/}
 
               <NavListItem>
                 <NavL to="/profile">
@@ -129,7 +130,7 @@ const Navbar = ({ date, page }) => {
         <section className="dropdown__buttons">
           <a
             className="btn btn__filled"
-            href="mailto:asharo360@gmail.co"
+            href="mailto:asharo360@gmail.com"
             target="_blank"
             rel="noreferrer"
           >
@@ -137,12 +138,12 @@ const Navbar = ({ date, page }) => {
           </a>
           <a
             className="btn btn__outline"
-            href="https://arashish.dev.fast.sheridanc.on.ca/dist/"
+            href="https://www.instagram.com/vote4ash/"
             target="_blank"
             rel="noreferrer"
           >
-            About Ash
-          </a>
+            Instagram
+          </a>        
         </section>
       </NavDropdown>
     </>

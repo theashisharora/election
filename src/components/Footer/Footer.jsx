@@ -9,7 +9,7 @@ const Footer = ({ page }) => {
     <FooterWrapper className="container">
       <section className="container__sub subb">
         <div className="footer__left">
-          <a href="#" target="_blank">
+          <a href="https://forms.gle/KFb9vSQnNDjuAukt7" target="_blank">
             GET INVOLVED
           </a>
           <a href="mailto:asharo360@gmail.com" target="_blank">
@@ -24,6 +24,7 @@ const Footer = ({ page }) => {
             >
               <Instagram />
             </a>
+            {/*
             <a
               href="#"
               rel="noopener noreferrer"
@@ -40,6 +41,7 @@ const Footer = ({ page }) => {
             >
               <Facebook />
             </a>
+            */}
           </div>
         </div>
         <div className="footer__right">

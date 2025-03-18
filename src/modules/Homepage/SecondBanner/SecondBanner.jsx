@@ -10,7 +10,7 @@ const SecondBanner = () => {
           Let's do it <span>   #Vote4Ash</span>
         </h1>
         <h1>Vote Ashish Arora for Davis Campus</h1>
-        <h1>Dates: March 24th to 28th</h1>
+        <h1>Choose your Candidate Wisely</h1>
       </section>
     </Wrapper>
     

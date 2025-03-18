@@ -31,7 +31,7 @@ const Features = () => {
               SSU Board of Directors
             </h3>
             <h3 data-aos="fade-up" className="district">
-              Dates: March 24th to 28th
+              Let's make the difference
             </h3>
           </div>
         </section>
